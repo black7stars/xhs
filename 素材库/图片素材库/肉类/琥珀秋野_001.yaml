@@ -1,0 +1,22 @@
+filename: 琥珀秋野_001.png
+path: 素材库/图片素材库/肉类/
+primary_ingredient: 肉类
+dish_type: 主菜
+cuisine_style: 融合料理
+main_colors:
+- 玫瑰粉
+- 琥珀棕
+- 秋香黄
+- 森林绿
+composition: 45度斜俯拍
+food_presentation_style: 现代 rustic 精致乡村风格，扇形切片构图，自然主义摆盘
+season: 秋
+lighting: 自然光
+content_description: 精选鸭胸经低温慢煮后煎制，外皮金黄酥脆呈琥珀色，内里保留完美粉红色。切片呈扇形排列于粗陶盘中，搭配烤芦笋、西葫芦等秋日时蔬，点缀以可食用金盏花瓣与新鲜百里香，淋以浓缩肉汁酱汁，呈现秋日山野的自然质朴与精致感。
+dish_arrangement:
+  plate: 粗陶质地，米色带褐色斑点，圆形浅碗器型，边缘略带不规则手作感，直径约24cm
+  logic: 对角线构图法则，主食材从左上至右下扇形展开，制造视觉流动方向；烤蔬菜置于右下形成视觉锚点，与肉类形成高低错落的空间层次
+  spacing: 食材间保持0.5-1cm呼吸间距，主肉占据盘面60%视觉重心区域，避免过度拥挤
+  decoration: 微型百里香枝条以点状分布法则置于鸭肉缝隙间，可食用金盏花瓣零星点缀（约7-9朵），营造秋日山野落花意境，不掩盖食材本色
+  negative_space: 右下及左侧保留约30%留白，粗陶质地的空盘区域与食物形成材质对比，突出主食材的精致感，给予视觉休息区
+  overall_style: 北欧 Rustic Bistro 风格，精致与质朴平衡，对标 Noma 系 casual fine dining，适合秋日黄昏或晚餐场景，传递温暖的大地气息

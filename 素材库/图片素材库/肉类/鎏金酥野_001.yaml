@@ -1,0 +1,22 @@
+filename: 鎏金酥野_001.png
+path: 素材库/图片素材库/肉类/
+primary_ingredient: 肉类
+dish_type: 主菜
+cuisine_style: 融合料理
+main_colors:
+- 金黄色
+- 绯红色
+- 棕褐色
+- 灰绿色
+composition: 俯拍
+food_presentation_style: 解构式 rustic 精致摆盘，截面展示突出层次，菌菇自然散落营造森林野趣
+season: 秋冬
+lighting: 自然光
+content_description: 金黄酥皮包裹 tenderloin 牛柳，切面呈现完美五分熟绯红色泽，夹层是细腻的菌菇酱（duxelles）。搭配焦糖化的野生菌菇（金针菇、蟹味菇）与新鲜百里香，盘底点缀肉汁与黑胡椒碎，呈现经典惠灵顿的现代演绎。
+dish_arrangement:
+  plate: 浅灰色哑光陶瓷盘，圆形宽边设计，直径约28-30cm，粗陶质感营造质朴高级感
+  logic: 对角线动态构图，主酥皮卷从右上斜切至左下，切片置于视觉黄金点展示截面层次，利用'切割展示法'创造三维视觉深度
+  spacing: 主食材占据盘面60%，菌菇呈'有机散落状'分布于四周，保持2-3cm呼吸间距，避免过度堆叠
+  decoration: 新鲜百里香枝条（3-4枝）点缀于酥皮切口与菌菇之上，野生菌菇（8-10颗）自然散落形成'林间落物'意境，少量黑胡椒碎与肉汁点染增加质朴质感
+  negative_space: 盘子边缘保留35%留白，浅灰色盘面作为中性画布突出食材暖色调，左下与右侧留白平衡视觉重心，营造'少即是多'的现代美学
+  overall_style: 现代Bistro rustic chic 风格，对标 The Ledbury 或 Septime 等高端休闲餐厅，强调手工质感与食材本真，适合秋季品鉴菜单主菜呈现

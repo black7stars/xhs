@@ -1,0 +1,963 @@
+{
+  "海鲜类": {
+    "yaml_without_image": [],
+    "image_without_yaml": [
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_004.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_003.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬花椒手撕海鲈鱼_002.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/傣味鱿鱼拌青木瓜_002.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/香茅鲜虾杯配米切拉达蛋黄酱_002.png",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/烤鱼颈配腌萝卜与日式橙醋_002.png",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/龙虾馄饨配柚子清汤_002.png",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/炙烤生蚝配川味辣椒波本黄油_002.png",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/姜橘清汤黄尾鱼刺身_002.png"
+    ],
+    "matched_pairs": [
+      [
+        "琥珀秋鲑_001.yaml",
+        "琥珀秋鲑_001.jpeg"
+      ],
+      [
+        "金缕秋鲈_001.yaml",
+        "金缕秋鲈_001.png"
+      ],
+      [
+        "绯红雪脂_001.yaml",
+        "绯红雪脂_001.png"
+      ],
+      [
+        "绯玉葱芯_001.yaml",
+        "绯玉葱芯_001.jpg"
+      ],
+      [
+        "青涧玉脂_001.yaml",
+        "青涧玉脂_001.jpg"
+      ],
+      [
+        "姜橘清汤黄尾鱼刺身_001.yaml",
+        "姜橘清汤黄尾鱼刺身_001.png"
+      ],
+      [
+        "春涧贝语_001.yaml",
+        "春涧贝语_001.png"
+      ],
+      [
+        "柠檬花椒手撕海鲈鱼_001.yaml",
+        "柠檬花椒手撕海鲈鱼_001.jpg"
+      ],
+      [
+        "琥珀焦香鲈_001.yaml",
+        "琥珀焦香鲈_001.jpg"
+      ],
+      [
+        "琥珀龙吟_001.yaml",
+        "琥珀龙吟_001.jpg"
+      ],
+      [
+        "紫陌蛤语_001.yaml",
+        "紫陌蛤语_001.jpg"
+      ],
+      [
+        "琥珀松露_001.yaml",
+        "琥珀松露_001.jpg"
+      ],
+      [
+        "绯雪凝鲜_001.yaml",
+        "绯雪凝鲜_001.jpg"
+      ],
+      [
+        "夏野浮光_001.yaml",
+        "夏野浮光_001.jpg"
+      ],
+      [
+        "金缕海鲈_001.yaml",
+        "金缕海鲈_001.jpg"
+      ],
+      [
+        "琥珀流影_001.yaml",
+        "琥珀流影_001.jpg"
+      ],
+      [
+        "翠珀扇贝_001.yaml",
+        "翠珀扇贝_001.png"
+      ],
+      [
+        "青野章鱼_001.yaml",
+        "青野章鱼_001.jpg"
+      ],
+      [
+        "绯焰金鲷_001.yaml",
+        "绯焰金鲷_001.jpg"
+      ],
+      [
+        "金盏海语_001.yaml",
+        "金盏海语_001.png"
+      ],
+      [
+        "赤环黑钻_001.yaml",
+        "赤环黑钻_001.png"
+      ],
+      [
+        "绯鳞秋涧_001.yaml",
+        "绯鳞秋涧_001.png"
+      ],
+      [
+        "柠檬草生姜酱海鲜_001.yaml",
+        "柠檬草生姜酱海鲜_001.jpg"
+      ],
+      [
+        "柠檬草生姜酱海鲜_002.yaml",
+        "柠檬草生姜酱海鲜_002.jpg"
+      ],
+      [
+        "烤鱼颈配腌萝卜与日式橙醋_001.yaml",
+        "烤鱼颈配腌萝卜与日式橙醋_001.png"
+      ],
+      [
+        "琥珀格纹_001.yaml",
+        "琥珀格纹_001.jpg"
+      ],
+      [
+        "琥珀秋鲈_001.yaml",
+        "琥珀秋鲈_001.jpg"
+      ],
+      [
+        "香茅鲜虾杯配米切拉达蛋黄酱_001.yaml",
+        "香茅鲜虾杯配米切拉达蛋黄酱_001.png"
+      ],
+      [
+        "墨韵鲑语_001.yaml",
+        "墨韵鲑语_001.jpg"
+      ],
+      [
+        "春涧墨白_001.yaml",
+        "春涧墨白_001.png"
+      ],
+      [
+        "琥珀海鲈_001.yaml",
+        "琥珀海鲈_001.jpg"
+      ],
+      [
+        "琥珀鱼脊_001.yaml",
+        "琥珀鱼脊_001.jpg"
+      ],
+      [
+        "玄墨翠海_001.yaml",
+        "玄墨翠海_001.png"
+      ],
+      [
+        "绯樱鲔韵_001.yaml",
+        "绯樱鲔韵_001.jpg"
+      ],
+      [
+        "螯影琥珀_001.yaml",
+        "螯影琥珀_001.jpg"
+      ],
+      [
+        "春野金盏_001.yaml",
+        "春野金盏_001.png"
+      ],
+      [
+        "翡翠海韵_001.yaml",
+        "翡翠海韵_001.png"
+      ],
+      [
+        "龙虾馄饨配柚子清汤_001.yaml",
+        "龙虾馄饨配柚子清汤_001.png"
+      ],
+      [
+        "炙烤生蚝配川味辣椒波本黄油_001.yaml",
+        "炙烤生蚝配川味辣椒波本黄油_001.png"
+      ],
+      [
+        "翠沼赤影_001.yaml",
+        "翠沼赤影_001.png"
+      ],
+      [
+        "春涧鱼盏_001.yaml",
+        "春涧鱼盏_001.png"
+      ],
+      [
+        "青涧玉贝_001.yaml",
+        "青涧玉贝_001.jpg"
+      ],
+      [
+        "琥珀春涧_001.yaml",
+        "琥珀春涧_001.jpg"
+      ],
+      [
+        "紫岸蛤语_001.yaml",
+        "紫岸蛤语_001.jpg"
+      ],
+      [
+        "岩礁绯虾_001.yaml",
+        "岩礁绯虾_001.jpg"
+      ],
+      [
+        "涧蓝鲭珠_001.yaml",
+        "涧蓝鲭珠_001.png"
+      ],
+      [
+        "傣味鱿鱼拌青木瓜_001.yaml",
+        "傣味鱿鱼拌青木瓜_001.jpg"
+      ],
+      [
+        "春涧鲈鱼_001.yaml",
+        "春涧鲈鱼_001.jpg"
+      ],
+      [
+        "琥珀金缕_001.yaml",
+        "琥珀金缕_001.jpg"
+      ],
+      [
+        "春涧墨玉_001.yaml",
+        "春涧墨玉_001.png"
+      ],
+      [
+        "琥珀鲜虾团_001.yaml",
+        "琥珀鲜虾团_001.png"
+      ],
+      [
+        "绯红雪脍_001.yaml",
+        "绯红雪脍_001.jpg"
+      ],
+      [
+        "琥珀墨卷_001.yaml",
+        "琥珀墨卷_001.jpg"
+      ],
+      [
+        "墨韵翠浪_001.yaml",
+        "墨韵翠浪_001.png"
+      ],
+      [
+        "琥珀秋鳞_001.yaml",
+        "琥珀秋鳞_001.png"
+      ],
+      [
+        "翠贝凝珠_001.yaml",
+        "翠贝凝珠_001.png"
+      ],
+      [
+        "翠环墨意_001.yaml",
+        "翠环墨意_001.png"
+      ],
+      [
+        "琥珀浮岛_001.yaml",
+        "琥珀浮岛_001.png"
+      ],
+      [
+        "琥珀银鲈_001.yaml",
+        "琥珀银鲈_001.jpg"
+      ],
+      [
+        "墨曜鲑波_001.yaml",
+        "墨曜鲑波_001.jpg"
+      ]
+    ],
+    "duplicates": [
+      {
+        "type": "yaml",
+        "base_name": "柠檬草生姜酱海鲜",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_001.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_002.yaml"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "柠檬草生姜酱海鲜",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_004.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_001.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_003.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬草生姜酱海鲜_002.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "柠檬花椒手撕海鲈鱼",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬花椒手撕海鲈鱼_001.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/柠檬花椒手撕海鲈鱼_002.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "傣味鱿鱼拌青木瓜",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/傣味鱿鱼拌青木瓜_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/傣味鱿鱼拌青木瓜_001.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "香茅鲜虾杯配米切拉达蛋黄酱",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/香茅鲜虾杯配米切拉达蛋黄酱_002.png",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/香茅鲜虾杯配米切拉达蛋黄酱_001.png"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "烤鱼颈配腌萝卜与日式橙醋",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/烤鱼颈配腌萝卜与日式橙醋_001.png",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/烤鱼颈配腌萝卜与日式橙醋_002.png"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "龙虾馄饨配柚子清汤",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/龙虾馄饨配柚子清汤_002.png",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/龙虾馄饨配柚子清汤_001.png"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "炙烤生蚝配川味辣椒波本黄油",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/炙烤生蚝配川味辣椒波本黄油_002.png",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/炙烤生蚝配川味辣椒波本黄油_001.png"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "姜橘清汤黄尾鱼刺身",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/姜橘清汤黄尾鱼刺身_001.png",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/海鲜类/姜橘清汤黄尾鱼刺身_002.png"
+        ]
+      }
+    ]
+  },
+  "肉类": {
+    "yaml_without_image": [],
+    "image_without_yaml": [
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_003.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_004.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/诺顿火腿黑松露可乐饼_002.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_008.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_005.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_007.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_006.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/伊比利亚糖烤猪五花_002.jpg",
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/姜黄香茅烤五花肉_002.png"
+    ],
+    "matched_pairs": [
+      [
+        "炭烤牛肋排配红酒酱_001.yaml",
+        "炭烤牛肋排配红酒酱_001.jpg"
+      ],
+      [
+        "炭烤牛肋排配红酒酱_004.yaml",
+        "炭烤牛肋排配红酒酱_004.jpg"
+      ],
+      [
+        "炭烤牛肋排配红酒酱_003.yaml",
+        "炭烤牛肋排配红酒酱_003.jpg"
+      ],
+      [
+        "炭烤牛肋排配红酒酱_002.yaml",
+        "炭烤牛肋排配红酒酱_002.jpg"
+      ],
+      [
+        "琥珀炭肋_001.yaml",
+        "琥珀炭肋_001.png"
+      ],
+      [
+        "紫珀牛舌_001.yaml",
+        "紫珀牛舌_001.jpg"
+      ],
+      [
+        "鎏金酥野_001.yaml",
+        "鎏金酥野_001.png"
+      ],
+      [
+        "琥珀秋豚_001.yaml",
+        "琥珀秋豚_001.jpg"
+      ],
+      [
+        "琥珀秋鸭_002.yaml",
+        "琥珀秋鸭_002.jpg"
+      ],
+      [
+        "琥珀秋鸭_001.yaml",
+        "琥珀秋鸭_001.jpg"
+      ],
+      [
+        "琥珀牛肋_002.yaml",
+        "琥珀牛肋_002.jpg"
+      ],
+      [
+        "琥珀牛肋_001.yaml",
+        "琥珀牛肋_001.png"
+      ],
+      [
+        "琥珀秋鸡_002.yaml",
+        "琥珀秋鸡_002.jpg"
+      ],
+      [
+        "琥珀秋鸡_001.yaml",
+        "琥珀秋鸡_001.png"
+      ],
+      [
+        "绯红藤椒牛_001.yaml",
+        "绯红藤椒牛_001.png"
+      ],
+      [
+        "秋炙培根盏_001.yaml",
+        "秋炙培根盏_001.jpg"
+      ],
+      [
+        "金缕玫瑰_001.yaml",
+        "金缕玫瑰_001.jpg"
+      ],
+      [
+        "炭烤咖啡香草羊排_002.yaml",
+        "炭烤咖啡香草羊排_002.jpg"
+      ],
+      [
+        "炭烤咖啡香草羊排_001.yaml",
+        "炭烤咖啡香草羊排_001.jpg"
+      ],
+      [
+        "琥珀秋野_001.yaml",
+        "琥珀秋野_001.png"
+      ],
+      [
+        "绯红酥塔_001.yaml",
+        "绯红酥塔_001.png"
+      ],
+      [
+        "酥衣春野_001.yaml",
+        "酥衣春野_001.jpg"
+      ],
+      [
+        "琥珀炙肋_001.yaml",
+        "琥珀炙肋_001.png"
+      ],
+      [
+        "琥珀岩烧_001.yaml",
+        "琥珀岩烧_001.png"
+      ],
+      [
+        "绯红藤椒肉_001.yaml",
+        "绯红藤椒肉_001.jpg"
+      ],
+      [
+        "绯雪黑珠卷_001.yaml",
+        "绯雪黑珠卷_001.png"
+      ],
+      [
+        "绯雪牛塔_001.yaml",
+        "绯雪牛塔_001.jpg"
+      ],
+      [
+        "绯墨牛韵_001.yaml",
+        "绯墨牛韵_001.png"
+      ],
+      [
+        "绯红脆盏_001.yaml",
+        "绯红脆盏_001.jpg"
+      ],
+      [
+        "琥珀脆饺_001.yaml",
+        "琥珀脆饺_001.png"
+      ],
+      [
+        "秋炙牛菌_001.yaml",
+        "秋炙牛菌_001.jpg"
+      ],
+      [
+        "琥珀牛威_001.yaml",
+        "琥珀牛威_001.png"
+      ],
+      [
+        "绯墨和牛_001.yaml",
+        "绯墨和牛_001.jpg"
+      ],
+      [
+        "绯炭牛肋_001.yaml",
+        "绯炭牛肋_001.png"
+      ],
+      [
+        "绯红慢炖_001.yaml",
+        "绯红慢炖_001.png"
+      ],
+      [
+        "绛紫秋野_001.yaml",
+        "绛紫秋野_001.jpg"
+      ],
+      [
+        "琥珀鸭腿_001.yaml",
+        "琥珀鸭腿_001.jpg"
+      ],
+      [
+        "熔岩金穗_001.yaml",
+        "熔岩金穗_001.jpg"
+      ],
+      [
+        "琥珀牛尾_001.yaml",
+        "琥珀牛尾_001.jpg"
+      ],
+      [
+        "琥珀熔岩鸡_001.yaml",
+        "琥珀熔岩鸡_001.jpg"
+      ],
+      [
+        "熔岩肉酱船_001.yaml",
+        "熔岩肉酱船_001.png"
+      ],
+      [
+        "琥珀春雏_001.yaml",
+        "琥珀春雏_001.jpg"
+      ],
+      [
+        "紫韵德肠_001.yaml",
+        "紫韵德肠_001.jpg"
+      ],
+      [
+        "琥珀金露_001.yaml",
+        "琥珀金露_001.png"
+      ],
+      [
+        "翠衣酥芯_001.yaml",
+        "翠衣酥芯_001.jpg"
+      ],
+      [
+        "绛浆牛肋_001.yaml",
+        "绛浆牛肋_001.png"
+      ],
+      [
+        "琥珀岩烧排_001.yaml",
+        "琥珀岩烧排_001.png"
+      ],
+      [
+        "诺顿火腿黑松露可乐饼_001.yaml",
+        "诺顿火腿黑松露可乐饼_001.jpg"
+      ],
+      [
+        "绯珀和牛_001.yaml",
+        "绯珀和牛_001.jpg"
+      ],
+      [
+        "赤焰牛肋_001.yaml",
+        "赤焰牛肋_001.png"
+      ],
+      [
+        "伊比利亚糖烤猪五花_001.yaml",
+        "伊比利亚糖烤猪五花_001.jpg"
+      ],
+      [
+        "葱岭琥珀牛_001.yaml",
+        "葱岭琥珀牛_001.png"
+      ],
+      [
+        "琥珀肋眼_001.yaml",
+        "琥珀肋眼_001.png"
+      ],
+      [
+        "琥珀黑钻_001.yaml",
+        "琥珀黑钻_001.jpg"
+      ],
+      [
+        "姜黄香茅烤五花肉_001.yaml",
+        "姜黄香茅烤五花肉_001.png"
+      ]
+    ],
+    "duplicates": [
+      {
+        "type": "yaml",
+        "base_name": "炭烤牛肋排配红酒酱",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_001.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_004.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_003.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_002.yaml"
+        ]
+      },
+      {
+        "type": "yaml",
+        "base_name": "琥珀秋鸭",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸭_002.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸭_001.yaml"
+        ]
+      },
+      {
+        "type": "yaml",
+        "base_name": "琥珀牛肋",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀牛肋_002.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀牛肋_001.yaml"
+        ]
+      },
+      {
+        "type": "yaml",
+        "base_name": "琥珀秋鸡",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸡_002.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸡_001.yaml"
+        ]
+      },
+      {
+        "type": "yaml",
+        "base_name": "炭烤咖啡香草羊排",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_002.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_001.yaml"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "琥珀秋鸡",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸡_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸡_001.png"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "炭烤咖啡香草羊排",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_003.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_001.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤咖啡香草羊排_004.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "诺顿火腿黑松露可乐饼",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/诺顿火腿黑松露可乐饼_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/诺顿火腿黑松露可乐饼_001.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "琥珀牛肋",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀牛肋_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀牛肋_001.png"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "炭烤牛肋排配红酒酱",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_008.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_004.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_005.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_007.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_006.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_003.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/炭烤牛肋排配红酒酱_001.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "伊比利亚糖烤猪五花",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/伊比利亚糖烤猪五花_001.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/伊比利亚糖烤猪五花_002.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "琥珀秋鸭",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸭_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/琥珀秋鸭_001.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "姜黄香茅烤五花肉",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/姜黄香茅烤五花肉_001.png",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/肉类/姜黄香茅烤五花肉_002.png"
+        ]
+      }
+    ]
+  },
+  "蔬菜类": {
+    "yaml_without_image": [],
+    "image_without_yaml": [],
+    "matched_pairs": [
+      [
+        "春涧凝翠_001.yaml",
+        "春涧凝翠_001.png"
+      ],
+      [
+        "春涧青酱_001.yaml",
+        "春涧青酱_001.png"
+      ],
+      [
+        "秋实塔汀_001.yaml",
+        "秋实塔汀_001.jpg"
+      ],
+      [
+        "春涧流光_001.yaml",
+        "春涧流光_001.jpg"
+      ],
+      [
+        "琥珀枫颂_001.yaml",
+        "琥珀枫颂_001.jpg"
+      ],
+      [
+        "春涧金露_002.yaml",
+        "春涧金露_002.jpg"
+      ],
+      [
+        "春涧金露_001.yaml",
+        "春涧金露_001.jpg"
+      ],
+      [
+        "春野金砂_001.yaml",
+        "春野金砂_001.png"
+      ],
+      [
+        "春涧_001.yaml",
+        "春涧_001.png"
+      ],
+      [
+        "琥珀味噌烧_001.yaml",
+        "琥珀味噌烧_001.png"
+      ],
+      [
+        "琥珀粟米酪_001.yaml",
+        "琥珀粟米酪_001.jpg"
+      ],
+      [
+        "绯樱春蔬_001.yaml",
+        "绯樱春蔬_001.jpg"
+      ],
+      [
+        "春藤绘_001.yaml",
+        "春藤绘_001.png"
+      ],
+      [
+        "琥珀葱心_001.yaml",
+        "琥珀葱心_001.jpg"
+      ],
+      [
+        "春野翠意_001.yaml",
+        "春野翠意_001.png"
+      ],
+      [
+        "春野青酱_001.yaml",
+        "春野青酱_001.png"
+      ],
+      [
+        "春野乳酪球_001.yaml",
+        "春野乳酪球_001.png"
+      ],
+      [
+        "春涧青酪_001.yaml",
+        "春涧青酪_001.png"
+      ],
+      [
+        "春涧玉根_001.yaml",
+        "春涧玉根_001.png"
+      ],
+      [
+        "绯雪牛油果盏_001.yaml",
+        "绯雪牛油果盏_001.jpg"
+      ],
+      [
+        "紫陌凝霜_001.yaml",
+        "紫陌凝霜_001.png"
+      ],
+      [
+        "琥珀玉葱_001.yaml",
+        "琥珀玉葱_001.jpg"
+      ],
+      [
+        "春涧脆丸_001.yaml",
+        "春涧脆丸_001.png"
+      ]
+    ],
+    "duplicates": [
+      {
+        "type": "yaml",
+        "base_name": "春涧金露",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/蔬菜类/春涧金露_002.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/蔬菜类/春涧金露_001.yaml"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "春涧金露",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/蔬菜类/春涧金露_001.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/蔬菜类/春涧金露_002.jpg"
+        ]
+      }
+    ]
+  },
+  "菌菇类": {
+    "yaml_without_image": [],
+    "image_without_yaml": [],
+    "matched_pairs": [
+      [
+        "秋茸白烩_001.yaml",
+        "秋茸白烩_001.png"
+      ],
+      [
+        "琥珀松露饺_001.yaml",
+        "琥珀松露饺_001.jpg"
+      ],
+      [
+        "秋菌凝露_001.yaml",
+        "秋菌凝露_001.png"
+      ],
+      [
+        "琥珀羊肚_001.yaml",
+        "琥珀羊肚_001.png"
+      ],
+      [
+        "琥珀菌饺_001.yaml",
+        "琥珀菌饺_001.jpg"
+      ],
+      [
+        "琥珀秋露_001.yaml",
+        "琥珀秋露_001.jpg"
+      ],
+      [
+        "琥珀春菌_001.yaml",
+        "琥珀春菌_001.jpg"
+      ]
+    ],
+    "duplicates": []
+  },
+  "其他": {
+    "yaml_without_image": [],
+    "image_without_yaml": [
+      "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/玉米苞谷冰淇凌_002.jpg"
+    ],
+    "matched_pairs": [
+      [
+        "夏芒花语_001.yaml",
+        "夏芒花语_001.png"
+      ],
+      [
+        "琥珀秋酪_001.yaml",
+        "琥珀秋酪_001.png"
+      ],
+      [
+        "秋珀蛋塔_001.yaml",
+        "秋珀蛋塔_001.jpg"
+      ],
+      [
+        "琥珀酥岸_001.yaml",
+        "琥珀酥岸_001.jpg"
+      ],
+      [
+        "紫岚碎片_001.yaml",
+        "紫岚碎片_001.png"
+      ],
+      [
+        "青岚苔痕_001.yaml",
+        "青岚苔痕_001.png"
+      ],
+      [
+        "紫扉_001.yaml",
+        "紫扉_001.jpg"
+      ],
+      [
+        "琥珀秋梨_001.yaml",
+        "琥珀秋梨_001.png"
+      ],
+      [
+        "翠涧流金_001.yaml",
+        "翠涧流金_001.png"
+      ],
+      [
+        "樱绯慕斯_001.yaml",
+        "樱绯慕斯_001.png"
+      ],
+      [
+        "青岚浮玉_001.yaml",
+        "青岚浮玉_001.png"
+      ],
+      [
+        "金缕玫瑰_001.yaml",
+        "金缕玫瑰_001.jpg"
+      ],
+      [
+        "青岚_002.yaml",
+        "青岚_002.jpg"
+      ],
+      [
+        "青岚_001.yaml",
+        "青岚_001.jpg"
+      ],
+      [
+        "春山黛_001.yaml",
+        "春山黛_001.png"
+      ],
+      [
+        "琥珀凝酪_001.yaml",
+        "琥珀凝酪_001.jpg"
+      ],
+      [
+        "琥珀酥韵_001.yaml",
+        "琥珀酥韵_001.jpg"
+      ],
+      [
+        "玉米苞谷冰淇凌_001.yaml",
+        "玉米苞谷冰淇凌_001.jpg"
+      ],
+      [
+        "绯心可可_001.yaml",
+        "绯心可可_001.jpg"
+      ],
+      [
+        "琥珀千层酪_001.yaml",
+        "琥珀千层酪_001.png"
+      ],
+      [
+        "春涧樱绽_001.yaml",
+        "春涧樱绽_001.png"
+      ],
+      [
+        "春涧樱盏_001.yaml",
+        "春涧樱盏_001.png"
+      ],
+      [
+        "琥珀金缕_001.yaml",
+        "琥珀金缕_001.png"
+      ]
+    ],
+    "duplicates": [
+      {
+        "type": "yaml",
+        "base_name": "青岚",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/青岚_002.yaml",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/青岚_001.yaml"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "青岚",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/青岚_001.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/青岚_002.jpg"
+        ]
+      },
+      {
+        "type": "image",
+        "base_name": "玉米苞谷冰淇凌",
+        "files": [
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/玉米苞谷冰淇凌_002.jpg",
+          "/Users/black7stars/workspace/xhs/素材库/图片素材库/其他/玉米苞谷冰淇凌_001.jpg"
+        ]
+      }
+    ]
+  }
+}

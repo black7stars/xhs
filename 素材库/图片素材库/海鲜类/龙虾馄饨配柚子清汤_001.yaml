@@ -1,0 +1,26 @@
+filename: 龙虾馄饨配柚子清汤_001.png
+path: 素材库/图片素材库/海鲜类/
+
+primary_ingredient: 海鲜
+dish_type: 前菜
+cuisine_style: 融合料理
+
+main_colors:
+  - 橙红色
+  - 淡黄色
+
+composition: 平视
+food_presentation_style: 汤品漂浮式摆盘
+season: 全年
+lighting: 自然光
+
+content_description: >
+  龙虾馄饨配柚子清汤：手工龙虾馄饨漂浮在清亮的柚子汤底中。馄饨皮薄馅足，龙虾肉呈现橙红色泽，柚子汤底清香宜人。
+
+dish_arrangement:
+  plate: 白色深汤碗，直径约16cm
+  logic: 中心聚焦，馄饨呈三角形分布
+  spacing: 4-5cm，三只馄饨间距均匀
+  decoration: 柚子皮丝、细香葱、微型豆苗
+  negative_space: 汤面留白40%，突出清汤质感
+  overall_style: 法式融合精致感

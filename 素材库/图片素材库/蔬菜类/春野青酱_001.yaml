@@ -1,0 +1,21 @@
+filename: 春野青酱_001.png
+path: 素材库/图片素材库/蔬菜类/
+primary_ingredient: 蔬菜类
+dish_type: 主菜
+cuisine_style: 融合料理
+main_colors:
+- 草绿色
+- 米白色
+- 奶白色
+composition: 俯拍
+food_presentation_style: 意式乡村自然堆叠风格，强调手工质感与食材本色的随意美学
+season: 春
+lighting: 自然光
+content_description: 粗管意面裹满浓郁的西兰花青酱，呈现鲜亮的草绿色。表面随意撒落帕玛森芝士碎，增添质感与层次。盛放在粗陶浅盘中，配以复古餐叉，整体呈现自然质朴的意式乡村风格，传递春日清新的饮食美学与手工温度。
+dish_arrangement:
+  plate: 粗陶浅盘（米色带斑点纹理），圆形，直径约24cm，边沿微翘呈自然弧度
+  logic: 中心放射状堆叠构图，意面自然 piled 形成视觉焦点；餐叉斜插于左下方，形成对角线视觉引导，打破静态平衡增添生活气息
+  spacing: 意面保持松散自然的间隙（约0.5-1cm），既展示酱汁包裹度又避免过度拥挤；食材占据盘面约75%，边缘保留呼吸空间
+  decoration: 帕玛森芝士碎采用'雪落式'撒法，集中分布于顶部中心向边缘渐疏，营造随性美感；盘面边缘点缀零星芝士碎增强场景真实感
+  negative_space: 盘面边缘保留约2.5cm的浅色边框形成'画框效应'；背景灰色水泥台面提供中性衬托，右上角青酱碗与左上角面包构建三角场景层次
+  overall_style: 现代意式乡村风格（Modern Rustic Italian），对标高端休闲Bistro如Lulu's或Gjelina，强调有机食材与手工质感，适合春日午间轻食场景

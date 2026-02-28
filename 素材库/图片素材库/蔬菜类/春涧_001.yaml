@@ -1,0 +1,21 @@
+filename: 春涧_001.png
+path: 素材库/图片素材库/蔬菜类/
+primary_ingredient: 蔬菜类
+dish_type: 汤品
+cuisine_style: 融合料理
+main_colors:
+- 翠绿色
+- 纯白色
+- 淡黄色
+composition: 俯拍
+food_presentation_style: 极简主义现代摆盘，强调食材本色与容器质感对比
+season: 春
+lighting: 自然光
+content_description: 一碗呈现明亮春意的绿色浓汤，盛放于纹理细腻的白色瓷碗中。汤体色泽鲜活如嫩叶，质地细腻顺滑，表面泛着柔和光泽。极简的呈现方式摒弃多余装饰，仅以纯净的色彩与质感传递自然风味，碗壁的细微横纹与汤面的静谧形成微妙的材质对话。
+dish_arrangement:
+  plate: 白色陶瓷宽边碗，内壁带水平细纹肌理，中等深度，边沿微敞呈柔和弧度
+  logic: 中心对称构图，利用高饱和度的翠绿与纯白碗壁形成强烈色彩对比，视线自然汇聚于汤面中心，营造静谧的禅意美学
+  spacing: 汤面距碗沿保留约2.5厘米均匀边距，形成舒适的视觉呼吸带，避免液体满溢的压迫感
+  decoration: 零装饰法则，完全依靠汤品本身的色泽层次和表面自然光泽作为视觉焦点，体现'less is more'的现代餐饮哲学
+  negative_space: 碗沿白色环形区域占比约35%，形成环绕式留白，有效隔离背景干扰，突出中央绿色汤品的视觉冲击力与纯净感
+  overall_style: 北欧极简与日式侘寂风的融合，对标Osteria Francescana或Noma的简约汤品呈现，适合高端Bistro的春季限定菜单，营造清新自然的现代餐饮场景

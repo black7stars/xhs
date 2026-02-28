@@ -1,0 +1,21 @@
+filename: 绯墨牛韵_001.png
+path: 素材库/图片素材库/肉类/
+primary_ingredient: 肉类
+dish_type: 主菜
+cuisine_style: 融合料理
+main_colors:
+- 绯红色
+- 墨黑色
+- 翠绿色
+composition: 俯拍
+food_presentation_style: 极简主义现代料理，新北欧风格摆盘
+season: 春
+lighting: 自然光
+content_description: 精选优质牛肉经低温慢煮后表面轻炙，呈现粉嫩肉质与焦香外皮的双重口感。搭配浓缩红酒酱汁与腌制蔬菜卷，内填新鲜芽菜增添清脆口感。整体摆盘遵循极简主义美学，以大面积留白凸显食材本味，呈现现代融合料理的精致与克制。
+dish_arrangement:
+  plate: 粗陶质感圆形平盘，米白色釉面洒褐色斑点，边缘保留陶土原色（棕色），浅边沿设计，直径约28-30cm
+  logic: 中心偏左横向排列，遵循黄金分割比例，形成'肉-酱-卷'的味觉递进关系，视线从左向右自然流动
+  spacing: 食材间距精密控制在1-2cm，既保持独立又形成整体，食材总面积占盘面约15%
+  decoration: 功能性装饰法则，腌制蔬菜卷既是容器也是装饰，内填芽菜提供色彩对比（翠绿 vs 绯红/墨黑），数量极简（1主材+1配饰）
+  negative_space: 盘面右侧及四周大面积留白，占比约85%，营造静谧高级感与视觉呼吸感，突出食材的稀缺性与珍贵度
+  overall_style: 新北欧料理（New Nordic）与现代Bistro融合风格，强调在地食材与极简美学，对标Noma、Relæ等米其林餐厅摆盘哲学，适合人均300-500元的高端Bistro晚餐场景

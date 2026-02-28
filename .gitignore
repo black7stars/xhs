@@ -1,0 +1,99 @@
+# =====================================
+# 小红书笔记生成器 - Git忽略配置
+# =====================================
+
+# ===== 环境配置文件（包含敏感信息） =====
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ===== Python虚拟环境和缓存 =====
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+bun.lock
+
+# ===== IDE和编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ===== 系统文件 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===== 日志文件 =====
+*.log
+logs/
+log/
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# ===== 废弃素材（完全忽略） =====
+废弃素材/
+
+# ===== 笔记目录（只保留父目录结构） =====
+笔记/*
+!笔记/.gitkeep
+
+# ===== AI生图目录（只保留父目录和子目录结构） =====
+AI生图/*/*
+!AI生图/文生图/.gitkeep
+!AI生图/图生图/.gitkeep
+
+# ===== 其他 =====
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.stylelintcache

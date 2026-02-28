@@ -1,0 +1,21 @@
+filename: 春涧凝翠_001.png
+path: 素材库/图片素材库/蔬菜类/
+primary_ingredient: 蔬菜类
+dish_type: 汤品
+cuisine_style: 融合料理
+main_colors:
+- 黄绿色
+- 翠绿色
+- 乳白色
+composition: 俯拍
+food_presentation_style: 自然主义简约风格，粗陶质感与鲜活食材对比
+season: 春
+lighting: 自然光
+content_description: 细腻绵密的芦笋浓汤呈现温润的黄绿色泽，表面以两根完整的鲜嫩芦笋尖斜向贯穿，搭配一勺洁白的酸奶油，点缀细碎的香葱与现磨黑胡椒，盛于粗陶质感的浅碗中，整体呈现出春日田园的清新与温润质感。
+dish_arrangement:
+  plate: 粗陶质感浅碗，灰白色釉面，边缘不规则做旧处理，直径约18-20cm，深度适中
+  logic: 对角线构图法则，两根芦笋从左下至右上形成视觉引导线，酸奶油置于右上黄金分割点形成焦点，香葱碎呈散点分布增加层次
+  spacing: 芦笋与碗壁保持1-2cm间距，汤面装饰物分布密度约30%，保留充足呼吸空间
+  decoration: 装饰分三层：底层细香葱碎（散点式，15-20处）、中层整根芦笋（2根，对角放置）、顶层酸奶油（1勺，偏右放置），形成立体层次
+  negative_space: 汤面左侧及碗壁周围保留60%负空间，突出主体食材；碗外背景采用亚麻布与大理石台面，营造自然松弛氛围
+  overall_style: 北欧现代乡村风格（Modern Rustic），对标Noma系或高端Bistro，适合春季限定菜单，强调食材季节性与手工质感

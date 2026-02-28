@@ -1,0 +1,21 @@
+filename: 春涧脆丸_001.png
+path: 素材库/图片素材库/蔬菜类/
+primary_ingredient: 蔬菜类
+dish_type: 前菜
+cuisine_style: 融合料理
+main_colors:
+- 金黄色
+- 翠绿色
+- 米白色
+composition: 45度斜俯拍
+food_presentation_style: 自然田园式堆叠摆盘，点缀食用花卉
+season: 春
+lighting: 自然光
+content_description: 金黄酥脆的面包糠外壳包裹着翠绿豌豆泥与乳白奶酪内馅，呈金字塔状堆叠于粗陶盘中，配以香草酸奶蘸酱，点缀新鲜三色堇与雏菊，营造出春日野餐的清新氛围。
+dish_arrangement:
+  plate: 粗陶质地浅盘，圆形，米白色，直径约24cm，边缘微翘呈自然质感
+  logic: 金字塔式中心堆叠构图，利用切开的一半展示内馅层次，视觉焦点从顶部向四周放射流动
+  spacing: 丸子紧密堆叠形成立体雕塑感，与右侧蘸酱碗保持3cm间距形成高低错落
+  decoration: 食用花卉（紫色三色堇、白色雏菊）三点式分布，新鲜香草碎随机散落，营造自然野趣
+  negative_space: 盘子左下及右侧保留35%留白，平衡中心堆叠的厚重感，突出春日轻盈氛围
+  overall_style: 现代田园Bistro风格，对标南法春日早午餐场景，适合分享式轻食前菜
