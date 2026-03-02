@@ -16,10 +16,14 @@ def load_config():
 ## Banana API配置项
 
 ```yaml
-BANANA_API_HOST: https://grsai.dakka.com.cn/v1/draw/nano-banana-pro
+BANANA_API_HOST: https://grsai.dakka.com.cn/v1/draw/nano-banana
 BANANA_MODEL: nano-banana-pro
 BANANA_API_KEY: [从.env读取]
 ```
+
+**重要说明**：
+- 端点是 `/v1/draw/nano-banana`（不是 `nano-banana-pro`）
+- 在请求参数的 `model` 字段中指定具体模型 `nano-banana-pro`
 
 ## SiliconFlow API配置项
 
@@ -42,11 +46,11 @@ NOTES_OUTPUT_DIR: 笔记
 
 ```yaml
 DEFAULT_IMAGE_COUNT: 4
-DEFAULT_WIDTH: 1242
-DEFAULT_HEIGHT: 1660
-DEFAULT_STEPS: 30
-DEFAULT_CFG: 7.5
+DEFAULT_ASPECT_RATIO: "3:4"  # 小红书推荐比例
+DEFAULT_IMAGE_SIZE: "2K"     # 支持1K/2K/4K
 ```
+
+**注意**：新API使用 aspectRatio 和 imageSize 替代 width/height
 
 ## 重试配置
 

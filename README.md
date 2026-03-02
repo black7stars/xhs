@@ -295,6 +295,15 @@ xhs/
 
 ## 更新日志
 
+- **2026-03-02**：生图功能全面重构
+  - **API端点修正**：`/v1/draw/nano-banana-pro` → `/v1/draw/nano-banana`
+  - **API参数重构**：移除 `width/height/steps/cfg_scale/seed/negative_prompt`
+  - **新增参数**：`aspectRatio: "3:4"`、`imageSize: "2K"`
+  - **结构化输出**：强制3个标记块（IMAGE_META/PLATING/BANANA_PROMPT）
+  - **新增后验检查**：`image-validator` skill 确保输出质量
+  - **技术规范**：AGENTS.md 新增 EISDIR 错误防范指南
+  - **已知问题**：生图质量堪忧，计划下次更新修复这一问题。
+
 - **2026-02-28**：项目全面整理
   - 修复文档引用路径不一致问题
   - 为所有关键子目录添加 README.md

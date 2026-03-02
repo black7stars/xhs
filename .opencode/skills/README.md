@@ -57,8 +57,8 @@ skill: prohibited-words
 
 **功能**：
 - 图片素材匹配
-- 配图建议生成
-- Banana API 调用
+- 配图建议生成（含结构化标记块）
+- Banana API 调用（新API格式）
 - 图片生成工作流管理
 
 **使用方式**：
@@ -66,13 +66,42 @@ skill: prohibited-words
 
 **核心流程**：
 1. 素材匹配（基于主题、食材、色调）
-2. 配图建议生成（摆盘说明）
-3. 提示词转换（转为 Banana 格式）
-4. API 调用生成图片
+2. 配图建议生成（含 PLATING:6items 标记块）
+3. 提示词转换（转为 Banana 新API格式）
+4. **后验检查**（调用 image-validator）
+5. API 调用生成图片
 
 **参考文档**：
 - `references/workflow.md` - 工作流程说明
 - `references/api-config.md` - API 配置说明
+
+**重要更新（2026-03-02）**：
+- API端点更新：`/v1/draw/nano-banana`
+- 参数更新：使用 `aspectRatio` 和 `imageSize` 替代 width/height
+- 新增结构化输出：强制3个标记块约束
+
+---
+
+### image-validator（图片生成后验检查）
+
+**路径**：`image-validator/`
+
+**功能**：
+- 对 food-image-core 的输出进行强制质量检查
+- 验证配图建议的6项摆盘说明完整性
+- 验证Banana提示词的JSON格式合规性
+- 拦截不合规输出，确保生图质量
+
+**使用方式**：
+在 food-image-core 工作流中自动调用，无需手动执行
+
+**检查流程**：
+1. 结构化标记检查（3个标记块）
+2. 配图建议完整性检查（6项全部勾选）
+3. Banana提示词格式检查（新API参数）
+4. 素材引用检查
+
+**添加时间**：2026-03-02
 
 ---
 
@@ -112,4 +141,4 @@ skill: prohibited-words
 
 ---
 
-**更新时间**：2026年2月28日
+**更新时间**：2026年3月2日
