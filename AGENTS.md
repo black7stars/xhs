@@ -67,6 +67,27 @@
 
 详细检查项参见 `content-review/SKILL.md`
 
+## 强制自检规则
+
+使用 `/小红书` 命令生成笔记时，**必须在输出前完成以下强制检查**：
+
+### 1. 生图质量检查
+调用 `skill: image-validator` 检查配图建议和Banana提示词：
+- 结构化标记完整性（IMAGE_META/PLATING/BANANA_PROMPT）
+- 配图建议6项摆盘说明是否全部勾选
+- 提示词JSON格式是否正确（model/prompt/aspectRatio/imageSize）
+- 歧义词汇检查（翻译后验）
+
+### 2. 内容质量检查  
+调用 `skill: content-review` 检查笔记内容：
+- 人设一致性（8年+ALMA+我）
+- 结构完整性（4步式齐全）
+- 痛点3-5句话展开
+- 观点有具体例子支撑
+- 无违禁词
+
+**只有通过全部检查后，方可输出笔记内容和配图。**
+
 ## 素材引用
 
 **必须**：
@@ -139,3 +160,57 @@ Error: EISDIR: illegal operation on a directory, open '/path/to/dir'
 - 不确定时，先用 `glob` 搜索确认文件存在
 - 遵循"先读再写"原则（read → edit）
 - 使用绝对路径而非相对路径
+
+### 避免 filePath is required 错误
+
+**问题描述**：
+当调用 `read` 或 `edit` 工具时，如果 `filePath` 参数为空或无效，会报错：
+```
+Error: filePath is required
+Error: File not found: /Users/black7stars/workspace/xhs
+```
+
+**根本原因**：
+- `filePath` 参数不能为空字符串
+- `filePath` 必须是有效的绝对路径
+- 路径分隔符使用不当（如使用相对路径 `./`）
+
+**预防措施**：
+
+1. **始终使用绝对路径**
+   ```bash
+   # ✅ 正确：使用绝对路径
+   /Users/black7stars/workspace/xhs/提示词库/图片提示词.md
+   
+   # ❌ 错误：使用相对路径或空路径
+   ./提示词库/图片提示词.md
+   提示词库/图片提示词.md
+   ""  # 空字符串
+   ```
+
+2. **使用 glob 工具确认文件存在**
+   ```bash
+   # ✅ 正确：先搜索再操作
+   glob "**/*.md" → 获取匹配文件列表 → 使用完整路径
+   ```
+
+3. **edit 工具使用规范**
+   - **必须**先用 `read` 工具读取文件内容
+   - `filePath` 必须是完整绝对路径
+   - `oldString` 必须包含足够的上下文以唯一匹配
+
+4. **bash 工具使用规范**
+   - `command` 参数不能为空
+   - `description` 参数必须提供清晰的描述
+
+**错误恢复**：
+如果不慎遇到 filePath is required 错误：
+1. 立即停止当前操作
+2. 检查 `filePath` 参数是否为空
+3. 确认使用的是绝对路径（以 `/` 开头）
+4. 使用 `glob` 工具搜索文件获取正确路径
+5. 重新执行操作
+
+---
+
+**最后更新**：2026年3月3日

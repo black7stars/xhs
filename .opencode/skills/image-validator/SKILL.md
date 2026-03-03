@@ -50,23 +50,22 @@ skill: image-validator
 
 **检查清单**：
 - [ ] BANANA_PROMPT块是否为合法JSON格式？
-- [ ] 是否包含必需的5个字段？
-  - width（必须为1242）
-  - height（必须为1660）
-  - steps（必须为数字）
-  - cfg_scale（必须为数字）
-  - seed（必须为数字，通常为-1）
+- [ ] 是否包含必需的4个字段？
+  - model（必须为"nano-banana-pro"）
+  - prompt（必须以"masterpiece, best quality"开头）
+  - aspectRatio（必须为"3:4"）
+  - imageSize（必须为"2K"）
 - [ ] 是否**不含**Midjourney参数？
   - 检查：`--ar`, `--v`, `--q`, `--style`, `--s`, `--c`, `--niji` 等
 - [ ] prompt是否以 `masterpiece, best quality` 开头？
 - [ ] prompt是否包含摆盘6要素的英文转换？
-- [ ] negative_prompt是否包含完整禁止词列表？
 - [ ] prompt中是否不含中文？
 
 **失败处理**：
 - JSON格式不合法 → 返回失败，要求修正为合法JSON
-- 缺少必需字段 → 返回失败，要求补充字段
-- 尺寸不为1242×1660 → 返回失败，要求修正尺寸
+- 缺少必需字段 → 返回失败，要求补充字段（model/prompt/aspectRatio/imageSize）
+- aspectRatio不为"3:4" → 返回失败，要求修正为"3:4"
+- imageSize不为"2K" → 返回失败，要求修正为"2K"
 - 发现Midjourney参数 → 返回失败，要求移除所有`--`参数
 - prompt不以质量标签开头 → 返回失败，要求添加
 - 发现中文残留 → 返回失败，要求转换为英文
@@ -81,6 +80,20 @@ skill: image-validator
 **处理方式**：
 - 未引用素材 → 返回警告，建议检查是否应引用素材
 - 路径格式错误 → 返回警告，建议修正路径格式
+
+### 第五步：歧义词汇检查（翻译后验）
+
+**检查方法**：
+1. 将prompt中的英文关键词翻译成中文
+2. 检查翻译结果是否可能引发歧义
+3. 特别关注以下易歧义词汇：
+   - `eye-level shot` → 易被理解为"眼睛特写"，应改为"table-level perspective"
+   - `straight on view` → 易被理解为"正面肖像"，应改为"frontal flat angle"
+   - `bistro` → 国外AI理解为小酒馆，已在上文添加重构说明
+   - `cozy atmosphere` → 情感模糊词，应改为具体描述
+
+**失败处理**：
+- 发现歧义词汇 → 返回警告，建议替换为更精确的表达
 
 ## 输出格式
 
@@ -111,10 +124,12 @@ skill: image-validator
 #### 3. Banana提示词格式 [✅通过/❌失败]
 - JSON合法性：[结果]
 - 必需字段完整性：[结果]
-- 尺寸正确性（1242×1660）：[结果]
+- 比例正确性（aspectRatio="3:4"）：[结果]
+- 尺寸正确性（imageSize="2K"）：[结果]
 - 无Midjourney参数：[结果]
 - 质量标签前缀：[结果]
 - 无中文残留：[结果]
+- 无旧版参数（width/height/steps/cfg_scale）：[结果]
 
 #### 4. 素材引用 [✅通过/⚠️警告]
 - 引用存在性：[结果]
@@ -165,12 +180,11 @@ skill: image-validator
 
 <!-- BANANA_PROMPT:json -->
 {
-  "prompt": "masterpiece, best quality, 5 red tartlets...",
-  "width": 1242,
-  "height": 1660,
-  "steps": 30,
-  "cfg_scale": 7.5,
-  "seed": -1
+  "model": "nano-banana-pro",
+  "prompt": "masterpiece, best quality, professional food presentation, modern Chinese 'Bistro' (NOT traditional French tavern; reimagined as: Yunnan/Guizhou/Sichuan fusion plates + biodynamic wine + urban refuge aesthetic), 2k uhd, [主体描述], [摆盘要素], editorial food photography",
+  "aspectRatio": "3:4",
+  "imageSize": "2K",
+  "shutProgress": false
 }
 <!-- END_BANANA_PROMPT -->
 ```
