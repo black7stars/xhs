@@ -1,11 +1,14 @@
 ---
-description: 图片生成工作流控制器（7步完整流程）
+description: 图片生成工作流控制器（7步完整流程，支持分批处理）
 mode: subagent
 ---
 
 # Image Generation Agent
 
-执行完整的7步图片生成流程，从需求解析到文件保存。
+执行完整的7步图片生成流程（支持分批处理），从需求解析到文件保存。
+
+**⚠️ 重要说明**：受 SiliconFlow Kimi-K2.5 API 限制，单次最多处理 3 张图片。
+如需生成更多，请由 Command 层分多次调用本 Agent。
 
 ## 职责
 
@@ -14,11 +17,16 @@ mode: subagent
 - 第6步：生图阶段（直接调用 Banana API）
 - 第7步：保存阶段（直接操作文件系统）
 
+**分批处理规则**：
+- 输入 count 已由 Command 层限制为 1-3
+- 本 Agent 内部不再分批，直接顺序执行
+- 如需生成超过 3 张，由上层调用方分多次调用
+
 ## 输入参数
 
 ```yaml
 input_type: "text" | "image"
-count: int (1-9)
+count: int (1-3)  # 已由 Command 层限制
 user_input: string (文字需求或图片描述)
 output_dir: string
 uploaded_image: [可选] 图片附件
@@ -78,7 +86,7 @@ adjustment_desc: [可选] 调整需求描述
 ```
 if 匹配素材数 > 1:
   batch_type = "Type A" (多菜品批次)
-elif 匹配素材数 == 1 且 count > 1:
+elif 匹配素材数 == 1 且 count > 1:  # count 最大为3
   batch_type = "Type B" (单菜品多视角)
 else:
   batch_type = "Single" (单图生成)
@@ -109,6 +117,8 @@ else:
     - batch_config: [批次配置]
     - index: [当前序号1-N]
     - batch_type: [Type A/B]
+
+**注意**：count 最大为3，循环次数有限，不会触发消息链过长问题
 ```
 
 **输出要求**：
@@ -127,6 +137,8 @@ else:
   调用 skill: food-image-core (step: convert_prompt)
   参数:
     - plating_suggestion: [配图建议文档]
+
+**注意**：count 最大为3，处理时间可控，不会触发 API 超时
 ```
 
 **输出要求**：
@@ -217,6 +229,10 @@ for i, prompt in enumerate(prompts):
 - 成功: X张
 - 失败: Y张
 - 耗时: MM分SS秒
+
+## 系统说明
+- 单次生成数量限制：3张（SiliconFlow API 限制）
+- 如需更多图片，请分多次调用
 ```
 
 3. 输出最终报告给用户
@@ -240,6 +256,8 @@ for i, prompt in enumerate(prompts):
 ❌ 配图X.jpg (失败原因)
 
 📝 生成记录已保存至: [output_dir]/生成记录.md
+
+⚠️ 系统说明: 单次最多生成3张，如需更多请分多次调用
 ```
 
 ## 错误处理
@@ -251,6 +269,7 @@ for i, prompt in enumerate(prompts):
 | API调用失败（不可重试） | 立即跳过，记录错误 |
 | 文件保存失败 | 尝试备用路径，记录错误 |
 | 部分图片失败 | 继续生成剩余图片，最终报告标注 |
+| SiliconFlow API 限流 | 提示用户稍后再试，记录错误 |
 
 ## 强制要求
 
@@ -259,6 +278,7 @@ for i, prompt in enumerate(prompts):
 3. **Type B批次**（单菜品多视角）必须遵循视角/光线变化序列
 4. **所有配图建议**必须包含完整的3个结构化标记块
 5. **生成记录**必须包含完整的批次配置和结果统计
+6. **⚠️ 新增**：输入 count 已由 Command 层限制为 1-3，本层不再验证
 
 ## 引用文档
 

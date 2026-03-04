@@ -159,6 +159,7 @@ step: convert_prompt
 - 配图规范: `提示词库/配图规范详解.md`
 - 提示词规则: `提示词库/图片提示词.md`
 - 批次一致性: `references/batch-consistency.md`
+- 工作流配置: `/.env` (WORKFLOW_MAX_BATCH_SIZE, WORKFLOW_DEFAULT_COUNT)
 
 ## 协作关系
 
@@ -172,6 +173,11 @@ image-generation agent
     ├── 第6步 → agent 直接调用 Banana API
     └── 第7步 → agent 直接保存文件
 ```
+
+**分批处理说明**：
+- 由于 SiliconFlow Kimi-K2.5 API 限制，单次最多处理 3 张图片
+- 如需生成更多，由 Command 层分多次调用 agent
+- 本 Skill 保持原子能力，不处理分批逻辑
 
 ---
 
