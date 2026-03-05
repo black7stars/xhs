@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 零添加装饰物原则，仅以食材本身为装饰——翠绿西兰花苔作为色彩焦点，海盐颗粒点缀鱼皮增加质感细节，酱汁作为唯一动态装饰元素
   negative_space: 盘面四周均匀留白，尤其上下两侧留白占比40%，突出中心食材的悬浮感；酱汁落点处的空白区域强化视觉焦点，符合高端餐饮的呼吸美学
   overall_style: 现代欧式Bistro风格，对标伦敦/巴黎精品小酒馆，适合Casual Fine Dining场景，平衡了精致料理的仪式感与轻松氛围
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

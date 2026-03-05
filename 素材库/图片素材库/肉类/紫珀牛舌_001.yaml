@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 黄色芥末籽作为点状装饰随机散布于肉片表面（约25-30粒），紫色酢浆草三叶状点缀于甜菜根丝上（3-4朵），遵循奇数法则与不对称分布，增添自然野趣
   negative_space: 盘面约60%留白集中于左侧与上部，形成大面积负空间，突出主体食材的精致感与高级感，避免视觉拥挤
   overall_style: 现代北欧Bistro风格，对标哥本哈根Relæ或Amass美学，强调食材本味、手工质感与季节性，适合高端休闲正餐场景，呈现精致而不失温度的用餐体验
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

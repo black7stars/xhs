@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 极简直击式装饰，仅以单点奶油蒜泥酱作为视觉锚点，表面点缀金黄色油滴形成色彩对比，装饰物数量控制在最小化，聚焦食材本体表现
   negative_space: 大面积留白约占盘面70%，左侧及上方留白形成开阔呼吸感，右下角密集布局形成视觉重心偏移，强调食材稀缺性与珍贵感
   overall_style: 现代北欧极简风格，对标Noma/Relae等米其林餐厅美学，适合高端Bistro春季限定菜单，强调食材本真质感与光影对比，营造静谧高级感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

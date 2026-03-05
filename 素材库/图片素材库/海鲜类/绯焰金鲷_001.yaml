@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 点缀法则，水瓜榴4颗、红椒丁4块、莳萝2枝，沿鱼身两侧非对称分布；绿色香草打破暖色单调，水瓜榴提供质感对比，数量控制在奇数点形成节奏
   negative_space: 盘边1/3环形留白，白色边沿与橙黄酱汁形成强烈色彩对比，突出中心食材的立体感；顶部鱼尾区域留白引导视线向上延伸，营造灵动气息
   overall_style: 现代简约新法式风格，对标Septime、Le Grand Restaurant等巴黎Bistro，适合高端商务午宴或精致晚餐场景，强调食材本味与视觉戏剧性的平衡
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

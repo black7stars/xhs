@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 极简装饰法则，仅使用两片新鲜山芹菜叶分别点缀于鱼子酱顶端，绿色在墨绿与绯红间形成色彩过渡与生机点睛
   negative_space: 大面积留白（约占盘面85%），集中突出食材主体，营造高端料理的空灵质感与呼吸感，强化视觉焦点
   overall_style: 现代Fine Dining风格，融合日式食材与法式摆盘美学，对标米其林星级Bistro，适合商务晚宴或特殊场合的精致前菜
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

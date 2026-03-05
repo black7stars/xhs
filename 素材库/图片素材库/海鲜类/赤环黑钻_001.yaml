@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 微型香草（5株） strategically 分布于龙虾缝隙与鱼子酱顶部，打破厚重感；墨黑香醋浓缩液（7滴）以不规则等距点缀于金色酱汁，形成波点艺术效果
   negative_space: 右侧及上方保留40%纯白空间，营造高端料理的呼吸感；白色盘底作为画布，强烈衬托琥珀与绯红的食材色泽，凸显极简奢华
   overall_style: 现代法式Bistro精致料理，对标米其林一星标准，适合商务宴请或纪念日场景，强调食材本味与视觉艺术的平衡
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

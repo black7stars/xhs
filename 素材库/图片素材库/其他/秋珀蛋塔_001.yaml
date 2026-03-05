@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 零添加装饰，依靠派皮的手工褶皱、蛋液表面自然气泡肌理以及双手入镜形成生活化装饰
   negative_space: 派体占据画面中心70%区域，四周留白与手部元素形成呼吸感，强调手作过程的叙事性
   overall_style: 质朴手工艺风格，对标法式乡村Bistro或现代家庭料理餐厅，强调从厨房到餐桌的透明感与参与感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

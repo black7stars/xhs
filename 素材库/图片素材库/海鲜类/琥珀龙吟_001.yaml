@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 微型豌豆苗自然垂落于右侧形成垂直线条，细切葱花以线性方式点缀于左侧饺子表面，搭配几片新鲜菠菜叶，整体装饰控制在3-4个元素，避免喧宾夺主
   negative_space: 碗壁四周形成环形留白，与中央丰富食材形成虚实对比；暖色调木质桌面作为背景留白占比约35%，突出主体同时营造温馨质朴的Bistro氛围
   overall_style: 现代都市Bistro风格，对标高端休闲餐饮，适合周末Brunch或轻正餐场景，强调手工质感与东西方食材的碰撞融合
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

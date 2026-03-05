@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 红色细粉末（甜椒粉或辣椒粉）均匀筛撒于表面形成色彩对比，动态油滴作为'活装饰'打破静态画面，数量控制在单滴下落瞬间，营造刚出锅的温度感
   negative_space: 深色盘面占据画面60%以上形成负空间，集中于四周及上方区域，突出主体煎饺的琥珀色泽；顶部预留空间配合油滴动态，避免画面拥挤
   overall_style: 现代暗黑系Bistro风格，对标Soho区亚洲融合小酒馆，强调食材的原始质感与烹饪痕迹，适合夜间菜单拍摄，营造温暖而精致的街头美食高级感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

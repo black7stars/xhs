@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 极简点缀法则，顶部装饰3支微型蕨类香草呈三角分布，搭配2-3条棕色脆片交错摆放，数量控制在5-7个元素，增加纵向层次而不显杂乱
   negative_space: 陶盘大面积留白占比约70%，黑色背景衬托突出主体；扇贝壳内部白色奶油基底与绿色凝胶形成色彩留白，增强视觉焦点集中度
   overall_style: 北欧新派料理融合日式侘寂美学，对标Noma或Geranium风格，强调自然元素与精致技法的平衡，适合高端Bistro或Fine Dining场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

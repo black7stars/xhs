@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 微型点缀法则（Micro-garnish）。采用'三点平衡'原则：3片鲜绿细叶香草（山萝卜苗）提供色彩呼应与生机感，3条金棕色脆片增加纵向高度与质地对比。装饰物体积控制在0.5-1cm，仅作点睛不喧宾夺主。
   negative_space: 大面积留白策略。贝壳内部约60%区域为留白（米色/白色），突出中央绿色主体；外层陶盘与贝壳间形成环形留白带（占比约45%），营造静谧高级感。留白作用：强化主体视觉重量，赋予菜品'呼吸感'，符合高端Bistro的极简美学标准。
   overall_style: 北欧新料理（New Nordic）与现代法式Bistro融合风格，对标Noma、Geranium等米其林餐厅理念。强调'从自然到餐桌'，运用发酵/腌渍技法，以贝壳为器体现海洋叙事，适合高端休闲晚餐场景，彰显主厨对食材本味与视觉诗意的双重追求。
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

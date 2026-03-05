@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 零装饰法则（No Garnish Philosophy），完全依靠食材本身色彩对比（紫与金）和质感差异（光滑香肠/粗糙面包/丝状甘蓝）构成视觉层次
   negative_space: 背景大面积留白（约70%画面），纯色墙面无干扰，突出手持食物的亲近感与仪式感；手部仅占画面下方30%，形成稳定支撑视觉而不喧宾夺主
   overall_style: 北欧极简主义与德式街头美食的融合，对标现代都市Bistro的 Casual Fine Dining 风格，强调食材本真与手工质感，适合Instagram传播的社交属性摆盘
+photography:
+  angle: 平视
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

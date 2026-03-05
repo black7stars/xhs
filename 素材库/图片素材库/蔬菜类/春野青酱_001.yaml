@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 帕玛森芝士碎采用'雪落式'撒法，集中分布于顶部中心向边缘渐疏，营造随性美感；盘面边缘点缀零星芝士碎增强场景真实感
   negative_space: 盘面边缘保留约2.5cm的浅色边框形成'画框效应'；背景灰色水泥台面提供中性衬托，右上角青酱碗与左上角面包构建三角场景层次
   overall_style: 现代意式乡村风格（Modern Rustic Italian），对标高端休闲Bistro如Lulu's或Gjelina，强调有机食材与手工质感，适合春日午间轻食场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

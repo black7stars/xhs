@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 食用花（黄色小花3朵、白色碎花少许）+细叶香草（3支）+风干薰衣草（8-10枝）。装饰呈点状分布，形成色彩对比（黄紫互补）与高度层次（低-中-高），增强三维立体感
   negative_space: 碗周保留约70%的灰色水泥桌面留白，突出主体并营造呼吸感；碗内部贝类间空隙形成自然负形，避免视觉拥挤，强化极简美学
   overall_style: 现代北欧Bistro风格，对标Noma/Amass等自然主义餐厅，适合春季海鲜套餐开场或单点分享，强调从海洋到餐桌的原生态理念，营造轻松精致的用餐仪式感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

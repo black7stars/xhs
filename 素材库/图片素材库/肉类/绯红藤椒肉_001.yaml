@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 以绯红干辣椒丝为底色，点缀青绿藤椒粒形成色彩对比，三簇新鲜绿叶（九层塔/罗勒）呈三角分布打破沉闷，白芝麻均匀撒落增加质感细节
   negative_space: 碗壁与食材间保留2-3cm环形留白，深色亚麻背景与粗陶碗形成天然画框，突出食材的丰盛感与碗器的工艺美感
   overall_style: 现代中式Bistro风格，融合川味麻辣与西式 rustic 呈现手法，对标上海/成都新派创意中餐，适合秋冬暖食场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

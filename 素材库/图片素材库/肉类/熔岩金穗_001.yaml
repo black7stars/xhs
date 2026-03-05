@@ -20,3 +20,31 @@ dish_arrangement:
   negative_space: 盘子四周保留充足留白，特别是底部与左侧区域留白占比约45%，形成呼吸感；白色盘面与深色酱汁、金黄面包形成强烈色彩对比，留白区域平衡了芝麻面包的密集纹理
   overall_style: 现代都市Bistro风格，对标All Day Dining餐厅早午餐场景，融合美式 diner 的随性与法式餐点的精致，适合 casual
     dining 场景，强调食材的诚实表达与手工质感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

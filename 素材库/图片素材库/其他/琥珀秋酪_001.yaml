@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 金丝脆片（顶部，少量散落，增加高度与质感）、焦糖淋酱（斜向线条，3-4道，强化层次）、梨片（侧向点缀，平衡视觉重心）
   negative_space: 盘面约75-80%面积为留白，集中在左上及四周区域，突出食材主体，营造静谧高级感与呼吸感
   overall_style: 日式侘寂美学融合现代北欧Fine Dining，对标Noma风格甜点，适合高端Bistro秋季甜品菜单
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

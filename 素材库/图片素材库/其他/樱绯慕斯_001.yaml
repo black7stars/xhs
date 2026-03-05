@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 遵循奇数法则与不对称平衡，3片粉色透明糖片呈螺旋上升，2-3片微型绿植（三叶草与细叶香草）错落分布，1颗核桃增加质感对比，装饰物高度控制在3cm内
   negative_space: 盘边留白占比约75%，形成强烈的图底对比，白色纹理盘面作为视觉缓冲，突出粉色主体的精致感，营造高级餐厅特有的呼吸感与仪式感
   overall_style: 现代法式融合日式侘寂美学，对标米其林推荐餐厅春季限定甜点，适合高端Bistro下午茶场景，呈现精致、轻盈、季节限定的艺术感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

@@ -84,7 +84,91 @@
 
 **说明**：视角和光线按顺序组合，确保每张图呈现不同侧面。
 
+## API层面一致性校验（第5.5步）
+
+### 校验时机
+在Banana提示词生成后、API调用前执行（第5.5步）。
+
+### 校验逻辑
+
+#### Type A批次（多菜品）
+1. 提取所有配图的Banana提示词JSON
+2. 对比以下字段的英文描述：
+   - **plate关键词**：`white matte ceramic plate` / `rustic stoneware plate` / `slate plate` 等
+   - **background关键词**：`clean wooden table surface` / `marble background` / `white seamless background` 等
+   - **style关键词**：`fine dining` / `bistro elegance` / `minimalist` 等
+   - **lighting关键词**：`soft window light` / `warm golden light` / `cool crisp light` 等
+   - **angle关键词**：`top-down` / `45 degree angle` / `table-level perspective` 等
+3. 判定标准：同一批次所有配图的上述关键词必须相同
+
+#### Type B批次（单菜品多视角）
+1. 验证锁定字段（plate/background/style）一致性
+2. 验证变化字段（angle/lighting）按序列变化
+3. 期望序列：
+   - 视角：俯拍 → 45度 → 平视 → 特写
+   - 光线：自然光 → 暖光 → 侧光 → 顶光
+
+### 自动强制统一机制
+
+**不一致处理流程**：
+```
+发现不一致 → 提取batch_config锁定值 → 强制覆盖所有配图 → 记录覆盖日志 → 重新验证
+```
+
+**强制覆盖规则**：
+1. **Type A批次**：任何配图与batch_config不一致 → 自动强制统一为batch_config值
+2. **Type B批次**：
+   - 锁定字段不一致 → 强制统一为batch_config值
+   - 变化字段未按序列 → 自动调整为正确序列
+3. **覆盖记录**：记录被覆盖的字段、原值、新值、配图编号
+
+**覆盖日志格式**：
+```yaml
+consistency_override_log:
+  batch_id: "batch_20240304_001"
+  timestamp: "2024-03-04T10:30:00Z"
+  overrides:
+    - dish_index: 2
+      field: "background"
+      original: "rustic wooden tavern table"
+      replaced_with: "clean wooden table surface background, no tavern atmosphere"
+      reason: "违反禁止词规则 + 与批次配置不一致"
+    - dish_index: 3
+      field: "plate_type"
+      original: "white round plate"
+      replaced_with: "white matte ceramic plate, 26cm diameter"
+      reason: "与批次配置不一致"
+```
+
+### 一致性哈希验证
+
+为每批次生成一致性指纹，用于快速验证：
+
+```python
+# 伪代码示意
+def generate_consistency_hash(batch_config, prompts):
+    """
+    生成批次一致性哈希，用于快速验证
+    """
+    locked_fields = {
+        'plate': batch_config['plate_type'],
+        'background': batch_config['background'],
+        'style': batch_config['overall_style']
+    }
+    
+    # 对每个提示词提取锁定字段的实际值
+    for idx, prompt in enumerate(prompts):
+        actual_values = extract_from_prompt(prompt)
+        if actual_values != locked_fields:
+            # 自动强制统一
+            prompt = force_override(prompt, locked_fields)
+            log_override(batch_config['batch_id'], idx, actual_values, locked_fields)
+    
+    return generate_hash(locked_fields)
+```
+
 ## 引用
 - 详细配图规范：`提示词库/配图规范详解.md`
 - 提示词转换规则：`提示词库/图片提示词.md`
 - API配置：`references/api-config.md`
+- 禁止词规则：`SKILL.md` 模块4

@@ -99,13 +99,37 @@ step: generate_plating
 
 ### PLATING:6items
 ```markdown
-<!-- PLATING:6items -->
+<!-- PLATING:10items -->
+### 菜品呈现维度（6项）
 - [ ] 盘子选择: [材质+形状+尺寸+边沿]
 - [ ] 摆盘逻辑: [构图法则+视觉流动方向]
 - [ ] 间距控制: [X-Ycm+分布特点]
 - [ ] 装饰法则: [装饰物+数量+分布+效果]
 - [ ] 留白艺术: [位置+比例+作用]
 - [ ] 整体风格: [定位+对标+场景]
+
+### 摄影技术维度（2项）
+- [ ] 摄影技术: [视角+景深+焦距+构图]
+  - 视角: [俯拍90°/45度斜俯拍/平视/特写]
+  - 景深: [浅景深f/2.8虚化背景 / 全景深f/8清晰]
+  - 焦距: [50mm标准 / 85mm人像 / 100mm微距]
+  - 构图: [中心构图 / 三分法 / 对角线 / 黄金分割]
+- [ ] 光线控制: [光源+方向+质感+色温]
+  - 光源: [自然光/柔光箱/LED面板]
+  - 方向: [侧光45°/顶光/逆光]
+  - 质感: [硬光强调纹理 / 柔光均匀照明]
+  - 色温: [5500K日光 / 3200K暖光]
+
+### 物理环境维度（2项）
+- [ ] 背景处理: [类型+材质+禁止元素]
+  - 类型: 纯桌子表面（菜单用图专用）
+  - 材质: [浅色木质/大理石/混凝土纹理]
+  - 禁止元素: [人物/窗户/餐厅环境/其他桌椅/装饰物/文字标识]
+  - 保留元素: 仅有桌面表面本身 + 菜品阴影
+- [ ] 表面质感: [桌面反光+阴影类型+环境反射]
+  - 桌面: [哑光/轻微反光/纹理质感]
+  - 阴影: [柔和投影/清晰投影/无投影]
+  - 环境反射: [控制反光/无杂乱反射]
 <!-- END_PLATING -->
 ```
 
@@ -154,6 +178,62 @@ step: convert_prompt
 | 留白艺术 | 左侧1/3留白 | `left third negative space, breathing room` |
 | 整体风格 | 法式精致感/fine dining | `fine dining food presentation, michelin star` |
 
+### 禁止词映射表（第5步强制执行）
+
+**转换前必须替换以下禁止词**：
+
+| 禁止词 | 强制替换为 | 替换原因 |
+|-------|-----------|---------|
+| `bistro` | `Modern Chinese fusion restaurant aesthetic (NOT traditional French bistro tavern; reimagined as refined small plates + curated wine selection + urban dining culture, contemporary minimalist interior design)` | AI误解为法式廉价小酒馆 |
+| `tavern` | `contemporary dining establishment` | 易生成酒吧氛围 |
+| `cozy atmosphere` | `clean minimalist presentation` | 情感模糊词 |
+| `restaurant interior` | `clean table surface background` | 避免生成餐厅环境 |
+| `dining scene` | `food presentation only` | 避免生成用餐场景 |
+| `window` | `neutral background` | 避免生成窗户/临窗 |
+| `patrons` / `diners` / `guests` | `[REMOVE]` | 禁止出现食客 |
+| `waiter` / `chef` / `staff` | `[REMOVE]` | 禁止出现人物 |
+
+**替换规则**：
+1. 生成提示词后立即执行禁止词扫描
+2. 发现禁止词 → 立即替换为对应转述词
+3. 替换后再次扫描确认无残留
+4. 如有无法自动处理的歧义 → 标记待人工确认
+
+### 背景处理规范（菜单用图专用）
+
+**默认背景定义**：纯桌子表面
+
+```yaml
+背景处理标准:
+  类型: 纯桌子表面背景
+  描述: "干净的桌面/台面表面，无任何其他物体或环境元素"
+  材质选项:
+    - 浅色木质纹理 (light natural wood grain)
+    - 大理石纹理 (white/grey marble texture)  
+    - 混凝土纹理 (concrete texture)
+  禁止元素:
+    - 人物（食客/服务员/主厨）
+    - 窗户/自然光线来源
+    - 其他桌椅/餐厅家具
+    - 装饰物（花瓶/餐具/餐巾）
+    - 环境氛围（灯光/阴影暗示空间）
+    - 品牌标识/文字
+  保留元素:
+    - 仅有桌面/台面表面本身
+    - 自然的桌面纹理（木纹/石纹）
+    - 菜品投射的柔和阴影
+```
+
+**Banana提示词转换**：
+
+| 配图建议 | Banana提示词 |
+|---------|-------------|
+| 纯桌子表面背景 | `clean wooden table surface background, no other objects, no environment, no people, no windows, no dining scene, seamless table texture filling entire background, only table surface visible` |
+| 禁止人物 | `no people, no human presence, no hands, no figures, no patrons, no diners` |
+| 禁止环境 | `no restaurant interior visible, no dining room, no ambient surroundings, no architectural elements` |
+| 禁止临窗 | `no window light source, no natural light from window, no outdoor view, no window frame` |
+| 禁止其他物体 | `no cutlery, no napkins, no glassware, no decorative items, no tableware except main plate` |
+
 ## 引用文档
 
 - 配图规范: `提示词库/配图规范详解.md`
@@ -167,12 +247,19 @@ step: convert_prompt
 image-generation agent
     ├── 第1步 → skill: food-image-core (模块1:需求解析)
     ├── 第2步 → skill: food-image-core (模块2:素材匹配)
-    ├── 第3步 → agent 内部逻辑
+    ├── 第3步 → agent 内部逻辑 (批次配置锁定)
     ├── 第4步 → skill: food-image-core (模块3:配图建议)
     ├── 第5步 → skill: food-image-core (模块4:提示词转换)
+    ├── 第5.5步 → skill: image-validator (API输入验证)
     ├── 第6步 → agent 直接调用 Banana API
     └── 第7步 → agent 直接保存文件
 ```
+
+**第5.5步说明**：
+- 在Banana提示词生成后、API调用前执行
+- 验证内容：禁止词替换、批次一致性、背景规范
+- 验证失败 → 拒绝API调用 → 返回修正
+- 验证通过 → 允许进入第6步
 
 **分批处理说明**：
 - 由于 SiliconFlow Kimi-K2.5 API 限制，单次最多处理 3 张图片

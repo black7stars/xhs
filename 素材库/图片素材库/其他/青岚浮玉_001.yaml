@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 抹茶粉轻筛营造雾化效果（3处），青柠凝胶点缀（4滴呈不规则分布），绿色脆片装饰（2片），遵循奇数法则与不对称美学
   negative_space: 右侧2/3盘面大面积留白，形成强烈的视觉呼吸感，突出主食材的精致度，留白比例约65%，符合黄金分割比例
   overall_style: 现代北欧极简主义融合日式侘寂美学，对标米其林星级餐厅甜品标准，适合高端Bistro的下午茶或餐后甜点场景，强调自然、清新、精致的用餐体验
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

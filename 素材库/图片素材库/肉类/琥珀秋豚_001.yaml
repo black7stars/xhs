@@ -22,3 +22,31 @@ dish_arrangement:
   negative_space: 右侧及右下方约60%盘面留白，形成强烈虚实对比；留白区域与酱汁拖尾（由浓至淡的滴落痕迹）形成动静平衡，突出主食材的高级感，符合现代Bistro极简美学
   overall_style: 现代北欧Bistro风格（Rustic Elegance），对标Septime或Noma的质朴精致理念，强调手工质感与食材本真，适合
     casual fine dining 场景，在粗犷陶盘与细腻摆盘间取得平衡
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

@@ -21,3 +21,31 @@ dish_arrangement:
   decoration: 零额外装饰法则，以食材本身为视觉元素——芝士的焦褐斑点作为'装饰性焦化'，翠绿蔬菜提供色彩隔断，实现'食材即装饰'的高级感
   negative_space: 盘子四周保留40%留白，左右两侧及前方留白尤为充分，突出主体；背景通过浅景深虚化（围裙），压缩空间聚焦菜品本身
   overall_style: 现代美式Bistro风格，粗犷精致主义，对标The Commune Social或Egg Slut等高端休闲餐厅，适合周末Brunch或轻午餐场景，强调手工感与舒适度
+photography:
+  angle: 平视
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

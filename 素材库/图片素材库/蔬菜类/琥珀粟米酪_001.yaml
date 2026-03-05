@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 白色奶油（或酸奶油）以同心圆方式拉花，点缀9-12粒1mm细切香葱段，呈不对称放射状分布；绿色点缀占比约5%，与金黄汤底形成冷暖对比，提升清新感与层次
   negative_space: 碗周保留充足的浅米色麻布背景，占比约45%，突出主体；深色碗体与浅色背景形成强烈明度对比，增强视觉聚焦效果
   overall_style: 现代简约Bistro风格，融合日式侘寂美学与北欧极简主义；强调食材本真质感与手工温度，适合秋季午市套餐或晚餐前菜，对标高端休闲餐厅（参考Noma风格）
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

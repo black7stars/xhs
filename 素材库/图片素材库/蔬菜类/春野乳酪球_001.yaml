@@ -20,3 +20,31 @@ dish_arrangement:
   negative_space: 大面积白色烘焙纸作为负空间，占比约60%，分布于球体周围，突出食材本色，营造极简主义美感，同时暗示'待烹饪'的期待感与纯净感
   overall_style: 现代简约Bistro风格，强调farm-to-table理念，呈现食物最本真的手工质感，介于家庭温馨与餐厅精致之间，适合早 brunch
     或佐酒小食场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

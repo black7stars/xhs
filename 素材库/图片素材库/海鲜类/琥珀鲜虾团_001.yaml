@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 新鲜欧芹碎均匀撒布，每平方厘米约2-3片，形成翠绿点缀与橙红酱汁的色彩对冲，提升清新感
   negative_space: 碗沿保留2-3cm灰白色边环，与深色酱汁形成明暗对比，突出主体同时营造手工器皿的质朴美感
   overall_style: 现代 Rustic Bistro 风格，对标 Lilia/Misi 等高端意式餐厅，适合 casual fine dining 场景，强调手工温度与食材本真的舒适美学
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

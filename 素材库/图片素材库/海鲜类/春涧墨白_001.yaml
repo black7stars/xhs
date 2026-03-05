@@ -21,3 +21,31 @@ dish_arrangement:
   negative_space: 右侧及下方约65%盘面留白，形成强烈的'呼吸感'与极简美学，突出食材的珍贵感与精致度，营造高端餐饮的空灵意境与想象空间
   overall_style: 新北欧风格融合日式极简主义，对标Noma或Osteria Francescana等米其林餐厅的现代精致料理，强调食材本真与季节感，适合高端Bistro的春季
     tasting menu
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

@@ -21,3 +21,31 @@ dish_arrangement:
   decoration: 可食用花卉（茴香花）3-5朵分布于中心区域，三色浆果（红橙黑）错落点缀，香草细叶穿插其间，数量控制在12-15个装饰点，营造野趣而不凌乱
   negative_space: 碗沿环形留白占比约60%，形成宽阔的负空间带，突出中心食材的色彩张力，赋予菜品禅意与高级感
   overall_style: 北欧自然主义融合风格，对标Noma系Fine Dining，适合作为夏季tasting menu的开胃前菜，强调在地野生食材与极简主义美学的平衡
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

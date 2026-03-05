@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 微型百里香枝条以点状分布法则置于鸭肉缝隙间，可食用金盏花瓣零星点缀（约7-9朵），营造秋日山野落花意境，不掩盖食材本色
   negative_space: 右下及左侧保留约30%留白，粗陶质地的空盘区域与食物形成材质对比，突出主食材的精致感，给予视觉休息区
   overall_style: 北欧 Rustic Bistro 风格，精致与质朴平衡，对标 Noma 系 casual fine dining，适合秋日黄昏或晚餐场景，传递温暖的大地气息
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

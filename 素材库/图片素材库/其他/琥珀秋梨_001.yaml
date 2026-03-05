@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 焦糖珊瑚脆片作为立体主装饰（1片），琥珀色果酱点缀（3-4滴），形成色彩跳色；表面轻撒肉桂粉或焦糖碎增加质感与香气暗示
   negative_space: 右侧及上方保留约60%留白，形成呼吸感，突出甜点的精致感，同时平衡左下角的视觉重量，营造高级感
   overall_style: 现代法式Bistro风格，对标米其林星级餐厅甜品标准，适合秋冬季节的精致用餐场景，强调温暖与优雅的平衡
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 新鲜罗勒叶3-4片作色彩点缀，青花椒粒散落10-15粒增加麻香视觉，白芝麻均匀撒布，干辣椒提供绯红色块对比
   negative_space: 碗壁四周保留2-3cm空白区域，深色亚麻背景衬托，形成天然画框效果，突出菜品主体
   overall_style: 现代Rustic Fine Dining风格，融合川味江湖气息与西式精致呈现，对标高端Bistro下酒主菜场景，强调烟火气与质感的平衡
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

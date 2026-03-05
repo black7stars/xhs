@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 新鲜豌豆苗（或苜蓿芽）置于鱼背中央，数量控制在3-5根，呈自然散落状，既增加色彩对比又暗示春季时令
   negative_space: 白色盘沿形成环形留白，占比约25%，突出中心菜品的色彩冲击力，同时双手端盘的动作增强场景感与温度感
   overall_style: 高端Bistro春季限定主菜，对标现代中式融合料理（如New Chinese Cuisine），适合春季菜单或时令特供，强调自然、清新、健康的饮食理念
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

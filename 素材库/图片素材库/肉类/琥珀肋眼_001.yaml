@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 点状装饰法则，粗盐粒与香草碎呈不规则点状分布，数量控制在15-20点，形成色彩节奏感而不喧宾夺主
   negative_space: 右侧及底部保留40%深色留白，利用暗调背景衬托肉色，营造高级餐厅的私密氛围与呼吸感
   overall_style: 现代极简Bistro风格，对标Peter Luger或高端烧肉店，适合晚餐主菜场景，强调食材本味与熟度工艺
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

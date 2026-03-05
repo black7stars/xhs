@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 粉色花瓣3-4片（郁金香花瓣）、黄色小花蕊点缀、紫色粉末撒粉装饰，数量克制精简，分布呈不对称三角构图，避免堆砌，营造自然散落效果
   negative_space: 留白比例约70%，主要分布在盘缘及左上区域，形成强烈呼吸感，突出中心甜点的精致感，符合高级餐饮留白艺术
   overall_style: 现代法式甜点融合日式侘寂美学，对标米其林星级餐厅或高端Bistro，强调季节感、破碎美感与食材本味，适合春夏品鉴
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

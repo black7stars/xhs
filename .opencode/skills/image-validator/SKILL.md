@@ -32,7 +32,7 @@ skill: image-validator
 ### 第二步：配图建议完整性检查
 
 **检查清单**：
-- [ ] PLATING块中6项是否全部勾选 `[x]`？（未勾选`[ ]`即失败）
+- [ ] PLATING块中10项是否全部勾选 `[x]`？（未勾选`[ ]`即失败）
 - [ ] 盘子选择：是否有具体内容（材质+形状+尺寸+边沿）？
 - [ ] 摆盘逻辑：是否有具体内容（构图法则+视觉流动）？
 - [ ] 间距控制：是否包含具体cm数值（如"2-3cm"）？
@@ -134,6 +134,83 @@ skill: image-validator
 **失败处理**：
 - 发现歧义词汇 → 返回警告，建议替换为更精确的表达
 
+---
+
+## 第5.5步：API输入验证（前置检查）
+
+**检查时机**：Banana提示词生成后、API调用前执行
+
+**检查目的**：在发送API请求前进行最终验证，拦截问题提示词
+
+### 检查流程
+
+#### 1. 禁止词残留检查
+
+**检查清单**：
+- [ ] prompt中是否不含禁止词？（bistro/tavern/cozy atmosphere等）
+- [ ] prompt中是否不含人物相关词？（patrons/diners/waiter/chef/person/people等）
+- [ ] prompt中是否不含餐厅环境词？（restaurant interior/dining scene/window等）
+
+**失败处理**：
+- 发现禁止词 → 立即返回失败 → 强制替换为转述词 → 重新验证
+
+#### 2. 批次一致性校验（API层面）
+
+**检查清单**：
+- [ ] Type A批次：所有配图的锁定字段关键词是否相同？
+  - plate关键词（white matte ceramic plate / rustic stoneware等）
+  - background关键词（clean wooden table surface / marble等）
+  - style关键词（fine dining / bistro elegance等）
+  - lighting关键词（soft window light / warm golden light等）
+- [ ] Type B批次：锁定字段是否一致？变化字段是否按序列？
+
+**自动强制统一**：
+- 发现不一致 → 自动强制统一为batch_config锁定值
+- 记录覆盖日志（字段、原值、新值、配图编号）
+- 重新验证直至通过
+
+#### 3. 背景规范检查（菜单用图专用）
+
+**检查清单**：
+- [ ] background描述是否为"纯桌子表面"类型？
+- [ ] 是否包含禁止元素？（人物/窗户/餐厅环境/其他物体）
+- [ ] 是否包含"no people, no window, no restaurant interior"等否定词？
+
+**失败处理**：
+- 背景不规范 → 返回失败 → 修正为背景规范要求 → 重新验证
+
+### 验证通过标准
+
+全部检查项通过后，方可进入第6步（API调用）。
+
+**未通过处理**：
+- 禁止词残留 → 强制替换 → 重新验证
+- 批次不一致 → 自动统一 → 重新验证  
+- 背景不规范 → 强制修正 → 重新验证
+
+### 拦截日志
+
+```yaml
+api_pre_check_log:
+  batch_id: "batch_20240304_001"
+  timestamp: "2024-03-04T10:30:00Z"
+  status: "passed / failed_with_override"
+  checks:
+    prohibited_words:
+      status: "passed"
+      found: []
+    batch_consistency:
+      status: "passed_with_override"
+      overrides:
+        - dish_index: 2
+          field: "background"
+          original: "rustic wooden tavern table"
+          replaced_with: "clean wooden table surface"
+    background_compliance:
+      status: "passed"
+  final_result: "API调用已批准"
+```
+
 ## 输出格式
 
 ```markdown
@@ -152,13 +229,17 @@ skill: image-validator
 - 标记块闭合：[结果]
 
 #### 2. 配图建议完整性 [✅通过/❌失败]
-- 6项全部勾选：[结果]
+- 10项全部勾选：[结果]
 - 盘子选择完整性：[结果]
 - 摆盘逻辑完整性：[结果]
 - 间距数值检查：[结果]
 - 装饰法则四要素：[结果]
 - 留白比例检查：[结果]
 - 整体风格对标：[结果]
+- 摄影技术完整性：[结果]（视角+景深+焦距+构图）
+- 光线控制完整性：[结果]（光源+方向+质感+色温）
+- 背景处理合规性：[结果]（纯桌子表面+无禁止元素）
+- 表面质感描述：[结果]（桌面反光+阴影类型+环境反射）
 
 #### 3. Banana提示词格式 [✅通过/❌失败]
 - JSON合法性：[结果]

@@ -20,3 +20,31 @@ dish_arrangement:
   negative_space: 约92%的留白区域环绕食物，利用盘面自然的裂纹纹理作为背景肌理，强化主体的雕塑感与悬浮感，营造静谧禅意氛围，使食客注意力完全集中于食材本身
   overall_style: 融合日式侘寂美学与北欧新料理（New Nordic）风格，对标Noma、Geranium等米其林三星餐厅甜品环节，适合高端Bistro的Tasting
     Menu收尾，强调手工质感、季节性与食材本味的纯粹表达
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

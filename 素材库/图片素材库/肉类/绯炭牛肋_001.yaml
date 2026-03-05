@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 采用'盘外装饰'手法，干辣椒围绕盘子呈放射状自然散落（数量8-12个），营造热烈氛围与季节感；盘内零装饰，依靠食材本身质感（肉类的焦褐、酱汁的光泽、配菜的自然弯曲）形成视觉焦点
   negative_space: 右侧及下方约75%盘面留白，形成强烈的虚实对比，留白区域干净无点缀，强化主食材的雕塑感和珍贵性，符合高级料理'少即是多'的哲学，引导视线集中于食物本身
   overall_style: 新北欧料理（New Nordic Cuisine）与现代Bistro融合风格，对标Geranium或Noma的极简主义，适合高端晚餐场景，强调食材本真、手工质感、季节性表达和火焰炭烤的原始魅力
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

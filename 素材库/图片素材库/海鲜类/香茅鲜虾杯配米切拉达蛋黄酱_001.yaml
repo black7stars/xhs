@@ -1,22 +1,17 @@
 filename: 香茅鲜虾杯配米切拉达蛋黄酱_001.png
 path: 素材库/图片素材库/海鲜类/
-
 primary_ingredient: 海鲜
 dish_type: 前菜
 cuisine_style: 融合料理
-
 main_colors:
-  - 粉红色
-  - 白色
-
+- 粉红色
+- 白色
 composition: 俯视
 food_presentation_style: 杯装层次式摆盘
 season: 全年
 lighting: 自然光
-
 content_description: >
   香茅鲜虾杯配米切拉达蛋黄酱：鲜嫩虾仁搭配香茅风味，盛放在精致小杯中，顶部点缀米切拉达蛋黄酱。虾仁色泽粉红诱人，蛋黄酱质感丝滑。
-
 dish_arrangement:
   plate: 透明玻璃杯配白色碟托，杯高约8cm
   logic: 垂直层次，由下至上渐变
@@ -24,3 +19,31 @@ dish_arrangement:
   decoration: 蛋黄酱裱花、香茅碎、红椒粉
   negative_space: 碟托边缘留白2/3
   overall_style: 现代融合精致前菜
+photography:
+  angle: 45度斜俯拍
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 顶部点缀红色酱料与可食用花卉，盘周散落菲达奶酪碎、石榴籽、腌制紫甘蓝丝，数量控制在5-7点，形成不对称平衡
   negative_space: 盘面右侧与左下角保留大面积留白，占比约40%，突出主体同时营造高级感，为饮品入镜预留视觉空间
   overall_style: 现代北欧极简Bistro风格，对标Noma美学，适合高端早午餐或轻食晚餐场景，强调食材本味与视觉对比
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

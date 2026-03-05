@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 单朵紫色堇菜属花卉作为色彩爆破点，搭配2-3片细叶香草（如细叶芹），遵循奇数法则与少即是多原则，避免过度装饰破坏汤品纯粹性
   negative_space: 宽边釉面形成80%的绝对留白区域，汤汁作为半透明介质连接食材与器皿，强化空寂美感并凸显主食材的雕塑感
   overall_style: 高端日法融合Bistro风格，对标东京米其林一星或上海高端Fusion餐厅，适合秋季品鉴菜单中的汤品环节，强调食材本真与手工器皿的温度对话
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

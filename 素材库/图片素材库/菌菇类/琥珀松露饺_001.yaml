@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 单一装饰法则，仅使用新鲜黑松露碎（约8-10克），以'刨撒'技法形成不规则碎屑，数量慷慨营造奢华感，分布遵循'随机中的秩序'，避免过度对称，突出自然野趣
   negative_space: 左侧及上方保留大面积纯白盘面，留白比例约45%，与右侧食物形成重量平衡，营造呼吸感和高级餐饮的克制美学，同时突出大理石背景的纹理质感
   overall_style: 现代极简意式Bistro风格，对标Rezdôra或Lilia等纽约现代意式餐厅，强调手工面食的温度与黑松露的奢华感，适合秋季晚餐场景，呈现'精致的随意性'
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

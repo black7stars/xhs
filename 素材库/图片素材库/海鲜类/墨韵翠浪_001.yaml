@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 采用'冠式点缀'法则，鱿鱼丝形成蓬松的白色体积感（约15-20条细丝的随意交错），穿插5-7支线性莳萝细叶呈放射状分布，既增加垂直高度又引入有机线条打破几何单调
   negative_space: 宽边盘沿形成大面积留白（约占视觉画面的65%），纯白色盘沿与金色环带构成'画框效应'，不仅突出中心菜品，更通过极简留白传递高端餐厅的克制美学与呼吸感
   overall_style: 新北欧极简主义融合现代意式Bistro风格，对标Attica或Noma的精致 casual dining 定位，强调食材本色、几何秩序与色彩对比，适合商务午餐或约会场景的精致呈现
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

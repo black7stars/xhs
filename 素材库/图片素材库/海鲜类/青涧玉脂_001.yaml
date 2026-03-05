@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 微量点缀法则，三种质感装饰（脆-坚果碎/嫩-香草叶/颗粒-松露碎）呈不对称三角分布，数量控制在5-7点，避免过度装饰
   negative_space: 宽边粗陶盘形成大面积米白色负空间，占比约70%，突出中心精致食材，营造日式'间'之美学
   overall_style: 新北欧极简主义，对标哥本哈根Relae/Osteria Francescana风格，适合现代Bistro的Fine Casual场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

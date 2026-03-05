@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 新鲜莳萝或细香葱3-4支，长度8-10cm，呈45度角不对称放射状插入，打破圆形单调，增加自然野趣与香气提示
   negative_space: 绿色酱汁外缘与盘边保留约1.5cm白色留白带，避免色彩溢出，平衡视觉重量，提升精致感
   overall_style: 当代意式Bistro融合北欧极简美学，强调食材本色与色彩对比，对标高端海鲜意面专门店，适合现代都市餐厅午餐场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

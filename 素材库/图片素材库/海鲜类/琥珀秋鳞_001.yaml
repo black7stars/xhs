@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 金丝脆片（约3-4g）蓬松置顶形成3cm高度差，两片微型绿叶（萝卜苗或酸模叶）以45度角斜插于鱼肉左侧，打破纵向线条的单调
   negative_space: 盘面65%留白集中于左上及右下区域，形成L型负空间，突出中心食材的雕塑感，营造高端餐饮的克制美学
   overall_style: 现代北欧极简融合日式侘寂美学，对标Noma/Relae风格，适合人均300+高端Bistro秋季主菜，强调食材本真与手工质感
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

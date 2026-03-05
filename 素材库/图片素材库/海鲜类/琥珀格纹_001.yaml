@@ -20,3 +20,31 @@ dish_arrangement:
   negative_space: 盘面约85%区域留白，突出中央食材的珍贵感，营造呼吸感与高级餐厅特有的克制美学，强化'少即是多'的现代料理哲学
   overall_style: 现代北欧融合风格，对标Noma/Amass等现代Bistro，强调食材原始质感与手工器皿的温度，适合精致 casual dining
     或商务晚餐场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

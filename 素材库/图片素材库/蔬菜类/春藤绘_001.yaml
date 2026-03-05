@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 零添加装饰法则，仅以食材本身作为装饰元素；通过15-18片大小不一的镂空叶片营造韵律感，分布遵循疏密有致原则，末端叶片逐渐变小形成渐弱效果
   negative_space: 大面积留白集中于盘面上半部及右侧，占比约65%，强化极简美学；留白区域与藤蔓形成虚实对比，突出春日生机与宁静意境
   overall_style: 新中式极简Bistro风格，对标Noma或Localismo等先锋餐厅的植物系料理，适合春季限定菜单或艺术主题晚宴，强调食材本真与手工温度
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

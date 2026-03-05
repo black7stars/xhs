@@ -1,22 +1,17 @@
 filename: 玉米苞谷冰淇凌_001.jpg
 path: 素材库/图片素材库/其他/
-
 primary_ingredient: 其他
 dish_type: 甜点
 cuisine_style: 融合料理
-
 main_colors:
-  - 淡黄色
-  - 白色
-
+- 淡黄色
+- 白色
 composition: 俯拍
 food_presentation_style: 中心构图
 season: 全年
 lighting: 自然光
-
 content_description: >
   玉米苞谷冰淇凌：以新鲜玉米制作的创意冰淇凌甜品，呈现金黄色泽。玉米的自然甜味与冰淇凌的冰凉口感完美结合，是一道独特的融合甜点。
-
 dish_arrangement:
   plate: 纯白哑光深盘，直径约20cm，无边沿设计
   logic: 中心对称构图，冰淇凌球居中放置，形成视觉焦点
@@ -24,3 +19,31 @@ dish_arrangement:
   decoration: 玉米粒点缀于冰淇凌周围，薄荷叶装饰于顶部
   negative_space: 四周大面积留白，突出中心甜品
   overall_style: 简约清新甜点风格，符合Bistro轻正餐定位
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

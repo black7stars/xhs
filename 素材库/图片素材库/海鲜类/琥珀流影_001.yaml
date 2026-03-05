@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 极简装饰法则：仅使用2-3片烤葱段（焦糖化洋葱/韭葱）作为点缀，酱汁以线性流淌方式呈现，绿色香草油以细线点缀，装饰物总量控制在3种以内
   negative_space: 盘面右下及中央大面积留白（约60%），形成虚实对比，突出主食材的视觉焦点地位，同时给予酱汁流淌的空间想象力
   overall_style: 北欧极简主义融合现代法式Bistro风格，对标Noma/Alain Ducasse的精致 casual dining 理念，强调手工温度与食材本味，适合高端休闲餐厅主菜呈现
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

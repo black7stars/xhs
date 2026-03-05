@@ -20,3 +20,31 @@ dish_arrangement:
   decoration: 新鲜意大利欧芹（3-4片，置于11点钟方向），散落荷兰豆荚（画面右上方，3片，形成视觉延伸），香草面包糠（小碗置于右侧，盘面边缘点缀），金色餐具（右下角，与灰色餐巾形成材质对话）
   negative_space: 深色水泥背景占据画面40%，形成深邃氛围；木质托盘与深蓝盘面间的环形空隙（约3cm）强化层次感；面条间的酱汁空隙营造透气感，避免视觉压迫
   overall_style: 现代北欧Bistro风格，对标Noma或Local Seasonal Dining概念，强调Farm-to-Table理念；适合春季限定菜单，营造森林系用餐场景，目标客群为追求自然主义美食体验的中高端消费者
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

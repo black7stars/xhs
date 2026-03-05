@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 零装饰法则，完全依靠汤品本身的色泽层次和表面自然光泽作为视觉焦点，体现'less is more'的现代餐饮哲学
   negative_space: 碗沿白色环形区域占比约35%，形成环绕式留白，有效隔离背景干扰，突出中央绿色汤品的视觉冲击力与纯净感
   overall_style: 北欧极简与日式侘寂风的融合，对标Osteria Francescana或Noma的简约汤品呈现，适合高端Bistro的春季限定菜单，营造清新自然的现代餐饮场景
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

@@ -1,22 +1,17 @@
 filename: 姜橘清汤黄尾鱼刺身_001.png
 path: 素材库/图片素材库/海鲜类/
-
 primary_ingredient: 海鲜
 dish_type: 前菜
 cuisine_style: 融合料理
-
 main_colors:
-  - 透明
-  - 淡黄色
-
+- 透明
+- 淡黄色
 composition: 平视
 food_presentation_style: 日式刺身立体质感摆盘
 season: 全年
 lighting: 自然光
-
 content_description: >
   姜橘清汤黄尾鱼刺身：精选黄尾鱼薄切片，搭配姜橘调味的清汤。鱼肉呈半透明质感，汤色清澈微黄，点缀姜丝和橘皮丝增添层次。
-
 dish_arrangement:
   plate: 日式陶瓷浅碗，直径约18cm
   logic: 层叠立体，鱼肉垂直插入汤底
@@ -24,3 +19,31 @@ dish_arrangement:
   decoration: 姜丝塔、橘皮丝、紫苏叶
   negative_space: 汤面留白60%，突出清透感
   overall_style: 日式怀石精致感
+photography:
+  angle: 平视
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

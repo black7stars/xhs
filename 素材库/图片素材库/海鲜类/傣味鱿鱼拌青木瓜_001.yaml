@@ -1,22 +1,17 @@
 filename: 傣味鱿鱼拌青木瓜_001.jpg
 path: 素材库/图片素材库/海鲜类/
-
 primary_ingredient: 海鲜类
 dish_type: 主菜
 cuisine_style: 融合料理
-
 main_colors:
-  - 橙红色
-  - 绿色
-
+- 橙红色
+- 绿色
 composition: 俯拍
 food_presentation_style: 堆叠式凉拌摆盘
 season: 全年
 lighting: 自然光
-
 content_description: >
   傣味鱿鱼拌青木瓜：将鱿鱼与青木瓜丝拌在一起，加入傣族特色调味，呈现酸辣清爽口感的海鲜料理。鱿鱼切片与青木瓜丝交织，色彩鲜明。
-
 dish_arrangement:
   plate: 纯白哑光圆形盘，直径约26cm
   logic: 中心堆叠，螺旋向外展开
@@ -24,3 +19,31 @@ dish_arrangement:
   decoration: 香菜叶、小米辣圈、烤花生碎点缀
   negative_space: 边缘留白1/4，突出中心色彩对比
   overall_style: Bistro轻正餐，东南亚风情
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

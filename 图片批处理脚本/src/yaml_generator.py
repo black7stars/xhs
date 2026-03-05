@@ -16,7 +16,7 @@ class YAMLGenerator:
         # 生成分类目录名
         category = analysis_result['classification']['primary_ingredient']
         
-        # 构建YAML内容
+        # 构建YAML内容（10维度配图规范）
         yaml_content = {
             'filename': '',  # 将在后续填充
             'path': '',      # 将在后续填充
@@ -29,6 +29,7 @@ class YAMLGenerator:
             'season': analysis_result['visual_analysis']['season'],
             'lighting': analysis_result['visual_analysis']['lighting'],
             'content_description': analysis_result['content_description'],
+            # 菜品呈现维度（6项）
             'dish_arrangement': {
                 'plate': analysis_result['dish_arrangement']['plate'],
                 'logic': analysis_result['dish_arrangement']['logic'],
@@ -36,6 +37,37 @@ class YAMLGenerator:
                 'decoration': analysis_result['dish_arrangement']['decoration'],
                 'negative_space': analysis_result['dish_arrangement']['negative_space'],
                 'overall_style': analysis_result['dish_arrangement']['overall_style']
+            },
+            # 摄影技术维度（2项）
+            'photography': {
+                'angle': analysis_result.get('photography', {}).get('angle', '45度斜俯拍'),
+                'depth_of_field': analysis_result.get('photography', {}).get('depth_of_field', '浅景深f/2.8'),
+                'focal_length': analysis_result.get('photography', {}).get('focal_length', '85mm人像'),
+                'composition_rule': analysis_result.get('photography', {}).get('composition_rule', '三分法')
+            },
+            # 光线控制维度（2项）
+            'lighting_control': {
+                'source': analysis_result.get('lighting_control', {}).get('source', '自然光'),
+                'direction': analysis_result.get('lighting_control', {}).get('direction', '侧光45°'),
+                'quality': analysis_result.get('lighting_control', {}).get('quality', '柔和照明'),
+                'color_temperature': analysis_result.get('lighting_control', {}).get('color_temperature', '5500K日光')
+            },
+            # 背景处理维度（菜单用图专用）
+            'background': {
+                'type': analysis_result.get('background', {}).get('type', '纯桌子表面'),
+                'material': analysis_result.get('background', {}).get('material', '浅色木质纹理'),
+                'prohibited_elements': analysis_result.get('background', {}).get('prohibited_elements', [
+                    '人物', '窗户', '餐厅环境', '其他桌椅', '装饰物', '品牌标识', '文字'
+                ]),
+                'allowed_elements': analysis_result.get('background', {}).get('allowed_elements', [
+                    '桌面表面本身', '菜品投射的柔和阴影'
+                ])
+            },
+            # 表面质感维度
+            'surface_texture': {
+                'desktop_finish': analysis_result.get('surface_texture', {}).get('desktop_finish', '哑光'),
+                'shadow_type': analysis_result.get('surface_texture', {}).get('shadow_type', '柔和投影'),
+                'environment_reflection': analysis_result.get('surface_texture', {}).get('environment_reflection', '控制反光')
             }
         }
         

@@ -19,3 +19,31 @@ dish_arrangement:
   decoration: 极简直白装饰，仅以1-2滴金黄色油脂点缀于白色泥状物表面，形成色彩焦点与味觉暗示，避免喧宾夺主
   negative_space: 盘面留白占比约75%，集中于菌串上方及左侧区域，形成呼吸感与高级感，突出春季食材的珍贵与纯净
   overall_style: 现代法式Bistro风格，对标Septime或Lyle's等高端休闲餐饮，适合春季限定 tasting menu，强调食材本味与精致简约的美学表达
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 柔光箱
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 3200K暖光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光

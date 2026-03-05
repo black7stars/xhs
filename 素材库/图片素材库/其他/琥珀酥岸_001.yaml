@@ -21,3 +21,31 @@ dish_arrangement:
   decoration: 微型薄荷叶3片精准点缀于酥皮与水果间隙，可食用紫花2朵散布增加精致感，白色奶油球2颗平衡暖色调，花瓣碎屑点缀左下角增加质感层次
   negative_space: 盘面左侧及右下侧大面积留白，约占盘面60%，形成呼吸感，突出主体精致度，符合现代极简美学
   overall_style: 现代欧式Bistro风格，对标巴黎玛黑区精致小酒馆甜点，适合下午茶或餐后甜品场景，营造轻松优雅的用餐氛围
+photography:
+  angle: 俯拍90°
+  depth_of_field: 浅景深f/2.8
+  focal_length: 85mm人像
+  composition_rule: 三分法
+lighting_control:
+  source: 自然光
+  direction: 侧光45°
+  quality: 柔和照明
+  color_temperature: 5500K日光
+background:
+  type: 纯桌子表面
+  material: 浅色木质纹理
+  prohibited_elements:
+  - 人物
+  - 窗户
+  - 餐厅环境
+  - 其他桌椅
+  - 装饰物
+  - 品牌标识
+  - 文字
+  allowed_elements:
+  - 桌面表面本身
+  - 菜品投射的柔和阴影
+surface_texture:
+  desktop_finish: 哑光
+  shadow_type: 柔和投影
+  environment_reflection: 控制反光
